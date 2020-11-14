@@ -15,9 +15,14 @@ and then:
 
 So...I guess that's what I'm doing. The current code is just supporting the user-side UI, so:
 
-TODO 
-. Swap from boilerplate entries for things like title and header to variables, so this is actually viable for other people to use
-. Create a configuration file to allow users to target a specific database when they're setting up
-. Whoops, a setup wizard would probably be a good idea too.
-. a display UI that lets you see previous blog posts to the same server
-. a simple multi-server configurator, so that you can manage multiple blogs from one user interface
+TODO: Swap from boilerplate entries for things like title and header to variables, so this is actually viable for other people to use
+
+TODO: Create a configuration file to allow users to target a specific database when they're setting up
+
+TODO: Whoops, a setup wizard would probably be a good idea too.
+
+TODO: a display UI that lets you see previous blog posts to the same server
+
+TODO: a simple multi-server configurator, so that you can manage multiple blogs from one user interface
+
+TODO: write out a sample front-end UI, although as long as it includes the WYSISYG css, it could feasably be stuffed into just about any front end website.
