@@ -1,4 +1,4 @@
-html { height: 100%; margin: 0px; padding: 0px; }
+html { height: 100%; margin: 0px; padding: 0px; background-color: gray;}
 body
 {
 	background-color: #edefd3;
@@ -46,3 +46,11 @@ body
 .eighty { height: 80%; }
 .ninety { height: 90%; }
 .full { height: 100% }
+
+.tox-edit-area__iframe {
+	background:none repeat scroll 0 0 #333333!important;
+
+}
+.mce-content-body{
+	color: white;
+}

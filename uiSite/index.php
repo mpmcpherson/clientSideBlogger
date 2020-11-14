@@ -21,11 +21,8 @@
 		</div>
 
 		<div class="mainBody full" id="thisThing">
-			<div class="full" id="body"> <!--<button id="btn">Top Button Text</button>-->
-				<div id="text">Here's some text, and isn't it interesting?</div>
-				<div id="text">Lorem ipsum dolor sit amet. Dulche et decorum est</div>
-				<div id="text">Here's some text, and isn't it interesting?</div>
-				<div> End Text		</div>	
+			<div class="full" id="body"> 
+
 			</div>
 		</div>
 
@@ -43,9 +40,20 @@
 	docReady(function() {
     	let leftbar = document.getElementById('leftBar');
     	leftbar.setAttribute("class","leftBar full")
-		tinymce.init({
-		    selector: '#body'
+		let myMCE = tinyMCE;
+		myMCE.init({
+		    selector: '#body',
+			skin: "oxide-dark",
+			content_css: "dark"
 		});
+		console.log(myMCE);
+
+
+		//setTimeout(function(){myMCE.triggerSave();}, 15);
+
+		//let t = tinyMCE.get(0);
+    	//t.getBody().style.backgroundColor = 'gray';
+    	//tinymce.bod.ystyle.backgroundColor = 'gray';
 	});
 
  
