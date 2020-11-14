@@ -21,9 +21,9 @@
 		</div>
 
 		<div class="mainBody full" id="thisThing">
-			<div class="full" id="body"> 
+			<form class="full" id="body" method="post" target="resources/postHandler.php"> 
 
-			</div>
+			</form>
 		</div>
 
 	</div>
