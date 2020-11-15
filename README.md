@@ -15,7 +15,8 @@ and then:
 
 So...I guess that's what I'm doing. The current code is just supporting the user-side UI, so:
 
-TODO: Swap from boilerplate entries for things like title and header to variables, so this is actually viable for other people to use
+TODO: Swap from boilerplate entries for things like title and header to variables, so this is actually viable for other people to use  
+--DONE--
 
 TODO: Create a configuration file to allow users to target a specific database when they're setting up
 
