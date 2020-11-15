@@ -21,10 +21,13 @@
 
 		<div class="leftBar" id="leftBar">
 			
-			<button id='btn' class="primary-button">click me motherfucker</button>
-<div class="wysiwyg" id="thisisthetarget">
-  
- </div>	
+			<button id='save_btn' class="pure-button-primary" style="width: 95%; height: 5%;">save</button>
+			<button id='save_and_publish' class="pure-button-primary" style="width: 95%; height: 5%;">save and publish</button>
+			<button id='configuration' class="pure-button-primary" style="width: 95%; height: 5%;">configuration</button>
+
+			<div class="wysiwyg" id="thisisthetarget">
+			  
+			</div>	
 		</div>
 
 		<div class="mainBody full" id="thisThing">
@@ -41,7 +44,7 @@
 <script type="text/javascript" src="js\helper.js"></script>
 
 <script type="text/javascript">
-	var button = document.getElementById('btn');
+	var button = document.getElementById('save_btn');
 	var resultDiv = document.getElementById('results');
 	let myMCE = tinyMCE;
 	let theTargetDiv = document.getElementById('thisisthetarget');
