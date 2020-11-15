@@ -22,7 +22,7 @@
 		<div class="leftBar" id="leftBar">
 			
 			<button id='btn' class="primary-button">click me motherfucker</button>
-<div class="wysiwyg">
+<div class="wysiwyg" id="thisisthetarget">
   <p><code>asdfasdfasdfasdf</code></p><p>
   
   </p><blockquote><p><strong>this_is_some_text</strong></p></blockquote><p>
@@ -54,6 +54,7 @@
 	var button = document.getElementById('btn');
 	var resultDiv = document.getElementById('results');
 	let myMCE = tinyMCE;
+	let theTargetDiv = document.getElementById('thisisthetarget');
 
 	var textBody = document.getElementById('body');
 
@@ -72,12 +73,6 @@
 		});
 		console.log(myMCE);
 
-
-		//setTimeout(function(){myMCE.triggerSave();}, 15);
-
-		//let t = tinyMCE.get(0);
-    	//t.getBody().style.backgroundColor = 'gray';
-    	//tinymce.bod.ystyle.backgroundColor = 'gray';
 	});
 
  
@@ -90,21 +85,25 @@
 		
 		console.log(textBody);
 
-		//let postReply = postRequest('resources/postHandler.php',textBody.innerHTML);
-		
-		//console.log(postReply);
-
-		//textBody.submit();
   		postRequest('resources/postHandler.php',
   			function(response){
   				console.log(response);
+  				//console.log("let's try rotting it");
+  				//console.log(atob(response));
+  				//console.log("allegedly no error");
+  				//let newResponse = JSON.parse(response);
+  				//console.log(newResponse);
+  				//let outgoing = response.replace(/myCustomAmp/g, "&");
+  				//outgoing = outgoing.replace(/myCustomEq/g, "=");
+  				//console.log("the response "+outgoing);
+  				//theTargetDiv.innerHTML = outgoing;
   				//resultDiv.innerHTML = response;
   			},
   			function(response){
   				//resultDiv.innerHTML = 'An error occurred during your request: ' +  response.status + ' ' + response.statusText;
   				console.log('An error occurred during your request: ' +  response.status + ' ' + response.statusText);
   			},
-  			"vals="+textBody.innerHTML	);
+  			textBody.innerHTML	);
 			
 	});
 
