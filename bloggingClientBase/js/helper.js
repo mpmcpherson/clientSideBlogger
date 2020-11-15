@@ -58,3 +58,43 @@
 	    req.send(null);
 	    return req;
 	}
+
+	function postRequest(url, success, error, data){
+		
+		var xhr = false;
+	    try{
+	        // most browsers
+	        xhr = new XMLHttpRequest();
+	    } catch (e){
+	        // IE
+	        try{
+	            xhr = new ActiveXObject("Msxml2.XMLHTTP");
+	        } catch(e) {
+	            // try an older version
+	            try{
+	                xhr = new ActiveXObject("Microsoft.XMLHTTP");
+	            } catch(e) {
+	                return false;
+	            }
+	        }
+	    }
+	    
+		xhr.open("POST", url, true);
+		xhr.setRequestHeader('Content-Type', 'application/json');
+
+	    if (!xhr) return false;
+	    if (typeof success != 'function') success = function () {};
+	    if (typeof error!= 'function') error = function () {};
+
+		xhr.onreadystatechange = function(){
+	        if(xhr.readyState == 4) {
+	            return xhr.status === 200 ?
+	                success(xhr.responseText) : error(xhr.status);
+	        }
+	    };
+
+		xhr.send(JSON.stringify({
+		    value: data
+		}));
+		return xhr;
+	}
