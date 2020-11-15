@@ -23,7 +23,7 @@
 			<?php 
 			for($i=0;$i<count($out);$i++)
 			{		
-				echo "<div class='pure-button-primary' style='margin: 3px;' id='".$out[$i]."'>".$out[$i]."</div>";
+				echo "<div class='pure-button-primary postLinks' style='margin: 3px;' id='".$out[$i]."'>".$out[$i]."</div>";
 			}
 			?>
 
@@ -46,14 +46,33 @@
 <script type="text/javascript" src="js\helper.js"></script>
 
 <script type="text/javascript">
-	var button = document.getElementById('save_btn');
-	var resultDiv = document.getElementById('results');
+	let buttons = document.getElementsByClassName('postLinks');
+
+	//let resultDiv = document.getElementById('results');
 
 	let theTargetDiv = document.getElementById('thisisthetarget');
 
-	var textBody = document.getElementById('body');
+	//let textBody = document.getElementById('body');
 
-	
+	for(let i = 0; i < buttons.length; i++)
+	{
+		buttons[i].addEventListener('click', function() {
+		console.log(buttons[i].id);
+
+		
+  		postRequest('resources/loadPost.php',
+  			function(response){
+  				console.log(response);
+  				//textBody.innerHTML = "";
+  				theTargetDiv.innerHTML = response;
+  			},
+  			function(response){
+  				console.log('An error occurred during your request: ' +  response.status + ' ' + response.statusText);
+  			},
+  			buttons[i].id	);
+			
+		});
+	}
 
  
 	
