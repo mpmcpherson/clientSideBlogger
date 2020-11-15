@@ -80,7 +80,6 @@
 	    }
 
 		xhr.open("POST", url, true);
-		//xhr.setRequestHeader('Content-Type', 'application/json');
 		xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
 	    if (!xhr) return false;
@@ -93,18 +92,6 @@
 	                success(xhr.responseText) : error(xhr.status);
 	        }
 	    };
-	    //let res = btoa(data);
-	    let breakout = JSON.stringify({
-		    //res
-		});
-		//console.log(res);
-		//console.log(atob(res));
-		//breakout = breakout.replace(/&/g, "myCustomAmp");
-		//breakout = breakout.replace(/=/g, "myCustomEq");
-		//breakout = breakout.replace(/"data":/g, "");
-		//console.log("value="+breakout);
-		//console.log(breakout);
-		//xhr.send("value="+breakout);
 		xhr.send(data);
 		return xhr;
 	}
