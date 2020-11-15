@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-
+<?php require 'resources/config.php';?>
 <html>
 <head>
-<title>Add your title here</title>
+<title><?php echo $pageTitle; ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
 <link rel="stylesheet" href="css\style.css">
 <link rel="stylesheet" href="css\pure-min.css">
@@ -15,7 +15,7 @@
 <body>
 	
 
-	<div class="oneTenth pageHead">true header</div>	
+	<div class="oneTenth pageHead"><?php echo "<h2>".$pageHeader."</h2>"; ?></div>	
 
 	<div class="wrapper ninety" id="container">
 
