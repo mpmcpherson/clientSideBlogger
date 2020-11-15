@@ -1,3 +1,5 @@
+<?php require 'resources/linkLoader.php'; ?>
+
 <!DOCTYPE html>
 <?php require 'resources/config.php';?>
 <html>
@@ -18,17 +20,21 @@
 	<div class="wrapper ninety" id="container">
 
 		<div class="leftBar" id="leftBar">
-			
-			<button id='save_btn' class="pure-button-primary" style="width: 95%; height: 5%;">save</button>
-			<button id='save_and_publish' class="pure-button-primary" style="width: 95%; height: 5%;">save and publish</button>
-			<button id='configuration' class="pure-button-primary" style="width: 95%; height: 5%;">configuration</button>
+			<?php 
+			for($i=0;$i<count($out);$i++)
+			{		
+				echo "<div class='pure-button-primary' style='margin: 3px;' id='".$out[$i]."'>".$out[$i]."</div>";
+			}
+			?>
+
+
 
 			
 		</div>
 
 		<div class="mainBody full" id="thisThing">
 			<div class="wysiwyg" id="thisisthetarget">
-			  <?php echo file_get_contents("resources/lorem1.txt") ?>
+			  <?php echo file_get_contents("posts/lorem1.txt") ?>
 			</div>	
 		</div>
 
