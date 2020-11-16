@@ -30,4 +30,5 @@ TODO: a simple multi-server configurator, so that you can manage multiple blogs 
 TODO: write out a sample front-end UI, although as long as it includes the WYSISYG css, it could feasably be stuffed into just about any front end website.
 
 This is a little touchy, but pretty neat.
+
 --DONE--
