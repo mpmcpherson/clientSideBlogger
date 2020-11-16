@@ -1,3 +1,4 @@
+
 # clientSideBlogger
 A client side blogging platform saving tinyMCE formatted DOM to strings in order to output it online or store it in a database
 Well, I *was* doing this: 
@@ -27,3 +28,6 @@ TODO: a display UI that lets you see previous blog posts to the same server
 TODO: a simple multi-server configurator, so that you can manage multiple blogs from one user interface
 
 TODO: write out a sample front-end UI, although as long as it includes the WYSISYG css, it could feasably be stuffed into just about any front end website.
+
+This is a little touchy, but pretty neat.
+--DONE--
