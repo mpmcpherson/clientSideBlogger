@@ -14,21 +14,6 @@ and then:
 
 > wait, if I'm posting this to a SQL database, I can then use https://jgthms.com/wysiwyg.css/ to style the results on a blog, for example. And just like that, I've got that flat-file blogging platform without a whole bunch of nonsense that I've wanted for ages.
 
-So...I guess that's what I'm doing. The current code is just supporting the user-side UI, so:
+So...I guess that's what I'm doing. The current code is just supporting the user-side UI. 
 
-TODO: Swap from boilerplate entries for things like title and header to variables, so this is actually viable for other people to use  
---DONE--
-
-TODO: Create a configuration file to allow users to target a specific database when they're setting up
-
-TODO: Whoops, a setup wizard would probably be a good idea too.
-
-TODO: a display UI that lets you see previous blog posts to the same server
-
-TODO: a simple multi-server configurator, so that you can manage multiple blogs from one user interface
-
-TODO: write out a sample front-end UI, although as long as it includes the WYSISYG css, it could feasably be stuffed into just about any front end website.
-
-This is a little touchy, but pretty neat.
-
---DONE--
+//moved TODOs into issues. It's not perfect, but it'll do.
