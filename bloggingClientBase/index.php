@@ -22,6 +22,8 @@
 		<div class="leftBar" id="leftBar">
 
 			<button id='save_btn' class="pure-button-primary fillHorizontal" style="height: 5%;">save</button>
+			
+			<button id='load_btn' class="pure-button-primary fillHorizontal" style="height: 5%;">load</button>
 
 			<button id='save_and_publish' class="pure-button-primary fillHorizontal"style="height: 5%;">save and publish</button>
 
@@ -50,12 +52,14 @@
 <script type="text/javascript" src="js\helper.js"></script>
 
 <script type="text/javascript">
-	var button = document.getElementById('save_btn');
-	var resultDiv = document.getElementById('results');
+	let save = document.getElementById('save_btn');
+	let load = document.getElementById('load_btn');
+	let publish = document.getElementById('save_and_publish');
+	let resultDiv = document.getElementById('results');
 	let myMCE = tinyMCE;
 	let theTargetDiv = document.getElementById('thisisthetarget');
 
-	var textBody = document.getElementById('body');
+	let textBody = document.getElementById('body');
 
 	docReady(function() {
     	let leftbar = document.getElementById('leftBar');
@@ -74,20 +78,39 @@
 
 	});
 
+
  
-	button.addEventListener('click', function() {
-		//console.log("hit click");
-		//myMCE.triggerSave();
+	save.addEventListener('click', function() {
+		//trigger transcription to the element I can get at easily
 		myMCE.triggerSave();
 
-		//alert("click");
-		
-		//console.log(textBody);
+		let text = textBody.innerHTML;
+
+		window.localStorage.setItem('text', text);
+
+	});
+
+	load.addEventListener('click', function() {
+		//trigger transcription to the element I can get at easily
+		//myMCE.triggerSave();
+
+		let text = window.localStorage.getItem('text');
+		console.log(text);
+		myMCE.activeEditor.setContent(text);
+		//textBody.innerHTML = text;
+	});
+
+ 
+	publish.addEventListener('click', function() {
+		//trigger transcription to the element I can get at easily
+		myMCE.triggerSave();
+
+		//save locally
+		window.localStorage.setItem('text', text);
 
   		postRequest('resources/postHandler.php',
   			function(response){
   				console.log(response);
-  				//textBody.innerHTML = "";
   				theTargetDiv.innerHTML = response;
   			},
   			function(response){
