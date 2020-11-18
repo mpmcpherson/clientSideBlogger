@@ -20,14 +20,20 @@
 	<div class="wrapper ninety" id="container">
 
 		<div class="leftBar" id="leftBar">
-			
-			<button id='save_btn' class="pure-button-primary" style="width: 95%; height: 5%;">save</button>
-			<button id='save_and_publish' class="pure-button-primary" style="width: 95%; height: 5%;">save and publish</button>
-			<button id='configuration' class="pure-button-primary" style="width: 95%; height: 5%;">configuration</button>
 
-			<div class="wysiwyg" id="thisisthetarget">
-			  
-			</div>	
+			<button id='save_btn' class="pure-button-primary fillHorizontal" style="height: 5%;">save</button>
+
+			<button id='save_and_publish' class="pure-button-primary fillHorizontal"style="height: 5%;">save and publish</button>
+
+			<button id='configuration' class="pure-button-primary fillHorizontal" style="height: 5%;">configuration</button>
+			<div id="config-folder" style="display: none;">
+				<input id="username" class="fillHorizontal forms" placeholder="username..."/>
+				<input type="password" id="password" class="fillHorizontal forms"  placeholder="password..."/>
+				<input id="server" class="fillHorizontal forms" placeholder="target server..."/>
+				<input id="path"class="fillHorizontal forms" placeholder="filepath..."/>
+				<div id="save-config" class="pure-button">save config</div>
+			</div>
+
 		</div>
 
 		<div class="mainBody full" id="thisThing">
@@ -91,6 +97,9 @@
 			
 	});
 
-
+	let config = document.getElementById('configuration');
+	config.addEventListener('click', function(){
+		toggleHidden('config-folder');
+	});
 
 </script>

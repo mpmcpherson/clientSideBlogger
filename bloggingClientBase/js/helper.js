@@ -95,3 +95,12 @@
 		xhr.send(data);
 		return xhr;
 	}
+
+	function toggleHidden(targetDiv) {
+	  var x = document.getElementById(targetDiv);
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+	    x.style.display = "none";
+	  }
+	} 
