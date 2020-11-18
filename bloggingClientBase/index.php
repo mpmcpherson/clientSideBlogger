@@ -52,6 +52,12 @@
 <script type="text/javascript" src="js\helper.js"></script>
 
 <script type="text/javascript">
+	let userName = document.getElementById('username');
+	let password = document.getElementById('password');
+	let server = document.getElementById('server');
+	let path = document.getElementById('path');
+	
+
 	let save = document.getElementById('save_btn');
 	let load = document.getElementById('load_btn');
 	let publish = document.getElementById('save_and_publish');
