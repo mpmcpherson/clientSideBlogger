@@ -32,7 +32,7 @@
 				<input id="username" class="fillHorizontal forms" placeholder="username..."/>
 				<input type="password" id="password" class="fillHorizontal forms"  placeholder="password..."/>
 				<input id="server" class="fillHorizontal forms" placeholder="target server..."/>
-				<input id="path"class="fillHorizontal forms" placeholder="filepath..."/>
+				<!--<input id="path"class="fillHorizontal forms" placeholder="filepath..."/>-->
 				<div id="save-config" class="pure-button">save config</div>
 			</div>
 
@@ -52,10 +52,9 @@
 <script type="text/javascript" src="js\helper.js"></script>
 
 <script type="text/javascript">
-	let userName = document.getElementById('username');
-	let password = document.getElementById('password');
-	let server = document.getElementById('server');
-	let path = document.getElementById('path');
+
+	window.localStorage.setItem('text', "");
+
 	
 
 	let save = document.getElementById('save_btn');
@@ -80,7 +79,7 @@
         		});
     		}
 		});
-		console.log(myMCE);
+		//console.log(myMCE);
 
 	});
 
@@ -108,21 +107,49 @@
 
  
 	publish.addEventListener('click', function() {
+
+
+	let userName = document.getElementById('username');
+	let password = document.getElementById('password');
+	let server = document.getElementById('server');
+
+	//let path = document.getElementById('path');
+
 		//trigger transcription to the element I can get at easily
 		myMCE.triggerSave();
+
+		//get text
+		let text = window.localStorage.getItem('text');
 
 		//save locally
 		window.localStorage.setItem('text', text);
 
+		
+
+		let data = {
+  				username: userName.value, 
+  				password: password.value,
+  				server: server.value,
+  				//"path": path.innerHTML,
+  				text: textBody.innerHTML
+			};
+
+		let sendMe = JSON.stringify(data);
+		console.log(data);
+		console.log(sendMe);
+
   		postRequest('resources/postHandler.php',
   			function(response){
   				console.log(response);
-  				theTargetDiv.innerHTML = response;
+  				//theTargetDiv.innerHTML = response;
+
   			},
   			function(response){
   				console.log('An error occurred during your request: ' +  response.status + ' ' + response.statusText);
   			},
-  			textBody.innerHTML	);
+  			
+  			sendMe
+		);
 			
 	});
 
