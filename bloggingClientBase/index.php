@@ -130,13 +130,10 @@
   				username: userName.value, 
   				password: password.value,
   				server: server.value,
-  				//"path": path.innerHTML,
   				text: textBody.innerHTML
 			};
 
 		let sendMe = JSON.stringify(data);
-		console.log(data);
-		console.log(sendMe);
 
   		postRequest('resources/postHandler.php',
   			function(response){
