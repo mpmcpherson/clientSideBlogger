@@ -81,6 +81,8 @@
 
 		xhr.open("POST", url, true);
 		xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+		//xhr.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
+		//xhr.setRequestHeader('Data-Type', 'json');
 
 	    if (!xhr) return false;
 	    if (typeof success != 'function') success = function () {};
@@ -95,3 +97,12 @@
 		xhr.send(data);
 		return xhr;
 	}
+
+	function toggleHidden(targetDiv) {
+	  var x = document.getElementById(targetDiv);
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+	    x.style.display = "none";
+	  }
+	} 

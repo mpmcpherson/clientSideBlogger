@@ -54,3 +54,15 @@ body
 .mce-content-body{
 	color: white;
 }
+.fillHorizontal
+{
+	width: 95%;	
+}
+.forms
+{
+	margin: 1px;
+	background-color: white;
+}
+[contenteditable=true]:empty:before {
+  content: attr(placeholder);
+}

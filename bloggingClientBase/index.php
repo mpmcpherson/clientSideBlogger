@@ -20,14 +20,22 @@
 	<div class="wrapper ninety" id="container">
 
 		<div class="leftBar" id="leftBar">
-			
-			<button id='save_btn' class="pure-button-primary" style="width: 95%; height: 5%;">save</button>
-			<button id='save_and_publish' class="pure-button-primary" style="width: 95%; height: 5%;">save and publish</button>
-			<button id='configuration' class="pure-button-primary" style="width: 95%; height: 5%;">configuration</button>
 
-			<div class="wysiwyg" id="thisisthetarget">
-			  
-			</div>	
+			<button id='save_btn' class="pure-button-primary fillHorizontal" style="height: 5%;">save</button>
+			
+			<button id='load_btn' class="pure-button-primary fillHorizontal" style="height: 5%;">load</button>
+
+			<button id='save_and_publish' class="pure-button-primary fillHorizontal"style="height: 5%;">save and publish</button>
+
+			<button id='configuration' class="pure-button-primary fillHorizontal" style="height: 5%;">configuration</button>
+			<div id="config-folder" style="display: none;">
+				<input id="username" class="fillHorizontal forms" placeholder="username..."/>
+				<input type="password" id="password" class="fillHorizontal forms"  placeholder="password..."/>
+				<input id="server" class="fillHorizontal forms" placeholder="target server..."/>
+				<!--<input id="path"class="fillHorizontal forms" placeholder="filepath..."/>-->
+				<div id="save-config" class="pure-button">save config</div>
+			</div>
+
 		</div>
 
 		<div class="mainBody full" id="thisThing">
@@ -44,12 +52,19 @@
 <script type="text/javascript" src="js\helper.js"></script>
 
 <script type="text/javascript">
-	var button = document.getElementById('save_btn');
-	var resultDiv = document.getElementById('results');
+
+	window.localStorage.setItem('text', "");
+
+	
+
+	let save = document.getElementById('save_btn');
+	let load = document.getElementById('load_btn');
+	let publish = document.getElementById('save_and_publish');
+	let resultDiv = document.getElementById('results');
 	let myMCE = tinyMCE;
 	let theTargetDiv = document.getElementById('thisisthetarget');
 
-	var textBody = document.getElementById('body');
+	let textBody = document.getElementById('body');
 
 	docReady(function() {
     	let leftbar = document.getElementById('leftBar');
@@ -64,33 +79,83 @@
         		});
     		}
 		});
-		console.log(myMCE);
+		//console.log(myMCE);
 
 	});
 
+
  
-	button.addEventListener('click', function() {
-		//console.log("hit click");
-		//myMCE.triggerSave();
+	save.addEventListener('click', function() {
+		//trigger transcription to the element I can get at easily
 		myMCE.triggerSave();
 
-		//alert("click");
+		let text = textBody.innerHTML;
+
+		window.localStorage.setItem('text', text);
+
+	});
+
+	load.addEventListener('click', function() {
+		//trigger transcription to the element I can get at easily
+		//myMCE.triggerSave();
+
+		let text = window.localStorage.getItem('text');
+		console.log(text);
+		myMCE.activeEditor.setContent(text);
+		//textBody.innerHTML = text;
+	});
+
+ 
+	publish.addEventListener('click', function() {
+
+
+	let userName = document.getElementById('username');
+	let password = document.getElementById('password');
+	let server = document.getElementById('server');
+
+	//let path = document.getElementById('path');
+
+		//trigger transcription to the element I can get at easily
+		myMCE.triggerSave();
+
+		//get text
+		let text = window.localStorage.getItem('text');
+
+		//save locally
+		window.localStorage.setItem('text', text);
+
 		
-		//console.log(textBody);
+
+		let data = {
+  				username: userName.value, 
+  				password: password.value,
+  				server: server.value,
+  				//"path": path.innerHTML,
+  				text: textBody.innerHTML
+			};
+
+		let sendMe = JSON.stringify(data);
+		console.log(data);
+		console.log(sendMe);
 
   		postRequest('resources/postHandler.php',
   			function(response){
   				console.log(response);
-  				//textBody.innerHTML = "";
-  				theTargetDiv.innerHTML = response;
+  				//theTargetDiv.innerHTML = response;
+
   			},
   			function(response){
   				console.log('An error occurred during your request: ' +  response.status + ' ' + response.statusText);
   			},
-  			textBody.innerHTML	);
+  			
+  			sendMe
+		);
 			
 	});
 
-
+	let config = document.getElementById('configuration');
+	config.addEventListener('click', function(){
+		toggleHidden('config-folder');
+	});
 
 </script>
