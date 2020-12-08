@@ -158,6 +158,7 @@
 	},
 	"expanded_folders":
 	[
+		"/home/michaelmcpherson/src/clientSideBlogger"
 	],
 	"file_history":
 	[
@@ -292,7 +293,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -345,7 +346,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -373,7 +374,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -388,8 +389,8 @@
 						"selection":
 						[
 							[
-								53,
-								53
+								0,
+								0
 							]
 						],
 						"settings":
@@ -402,7 +403,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
