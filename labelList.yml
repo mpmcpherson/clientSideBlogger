@@ -1,0 +1,18 @@
+# Add 'repo' label to any root file changes
+repo:
+  - ./*
+  
+# Add 'site/display' label to any change within the front end code
+site/display:
+  - bloggingClientBase/css/*
+  - bloggingClientBase/js/*
+  - bloggingClientBase/frontEnd/*
+  - bloggingClientBase/frontEnd/css/*
+  - bloggingClientBase/frontEnd/css/*
+  - bloggingClientBase/frontEnd/js/*
+  - bloggingClientBase/frontEnd/resources/*
+
+# Add 'dbConnection` label to any change to resources/* files as in the main program
+dbConnection:
+- bloggingClientBase/resources/*
+  
