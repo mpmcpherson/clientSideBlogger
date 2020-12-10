@@ -6,7 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'PackageVersions\\' => array($vendorDir . '/composer/package-versions-deprecated/src/PackageVersions'),
-    'MongoDB\\' => array($vendorDir . '/mongodb/mongodb/src'),
-    'Jean85\\' => array($vendorDir . '/jean85/pretty-package-versions/src'),
 );
