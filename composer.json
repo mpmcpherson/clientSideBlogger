@@ -1,0 +1,13 @@
+{
+    "name": "michaelmcpherson/client-side-blogger",
+    "description": "lightweight blogging platform",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael McPherson",
+            "email": "michael@mpmcpherson.com"
+        }
+    ],
+    "require": {}
+}
