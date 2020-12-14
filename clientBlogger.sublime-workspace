@@ -76,21 +76,13 @@
 	"buffers":
 	[
 		{
-			"contents": "a vast and perilous gap exists between knowing how people will act, and getting them to act differently",
+			"file": "/home/michaelmcpherson/src/a vast and perilous gap exists between knowing how",
 			"settings":
 			{
 				"buffer_size": 103,
+				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "a vast and perilous gap exists between knowing how"
-			}
-		},
-		{
-			"contents": "EhwyvTZ6GecB\n\nmichaelBastion@ps625186.dreamhostps.com",
-			"settings":
-			{
-				"buffer_size": 53,
-				"line_ending": "Unix",
-				"name": "EhwyvTZ6GecB"
 			}
 		}
 	],
@@ -158,9 +150,16 @@
 	},
 	"expanded_folders":
 	[
+		"/home/michaelmcpherson/src/clientSideBlogger"
 	],
 	"file_history":
 	[
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/dreamhost stuff",
+		"/home/michaelmcpherson/Documents/BusinessDocs/ec2 instance",
+		"/home/michaelmcpherson/src/comnavnotes/TIMELINE FOR PHP SITE MIGRATION",
+		"/home/michaelmcpherson/Documents/probaby a chinese state actor: attack with care",
+		"/home/michaelmcpherson/Documents/covid-cause-of-death",
+		"/home/michaelmcpherson/adafruit2fabackup.php",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/postHandler.php",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/phprc",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/index.php",
@@ -282,13 +281,7 @@
 		"/home/michaelmcpherson/src/DnDModuleGenerator/site/npcGenerator/index.php",
 		"/home/michaelmcpherson/src/writtenRecords/DnD/Duchy of the Eight Granite Vines",
 		"/home/michaelmcpherson/src/writtenRecords/DnD/Plot Episode 4",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/plot episode 1",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Plot Episode 3",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/dnd session notes 2",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Plot Episode 2",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Ludolf",
-		"/home/michaelmcpherson/src/DnDModuleGenerator/site/settlementGenerator/lists/05currentCalamityList",
-		"/home/michaelmcpherson/src/DnDModuleGenerator/site/settlementGenerator/lists/04knownForItsList"
+		"/home/michaelmcpherson/src/writtenRecords/DnD/plot episode 1"
 	],
 	"find":
 	{
@@ -306,6 +299,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"com",
 			"'",
 			"\n$",
 			"console",
@@ -345,11 +339,12 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "/home/michaelmcpherson/src/a vast and perilous gap exists between knowing how",
 					"semi_transient": false,
 					"settings":
 					{
@@ -367,35 +362,6 @@
 						"settings":
 						{
 							"auto_name": "a vast and perilous gap exists between knowing how",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 53,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								53,
-								53
-							]
-						],
-						"settings":
-						{
-							"auto_name": "EhwyvTZ6GecB",
-							"default_dir": "/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
