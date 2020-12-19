@@ -9,5 +9,8 @@
             "email": "michael@mpmcpherson.com"
         }
     ],
-    "require": {}
+    "require": {
+        "league/plates": "^3.3"
+    }
+
 }
