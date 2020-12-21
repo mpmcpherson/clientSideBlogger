@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "63f286907f83406408e4e9bf6a1a4147",
+    "content-hash": "f1e42b09b70071e9b471e49ac802d80e",
     "packages": [
         {
             "name": "league/plates",
@@ -64,12 +64,40 @@
                 "source": "https://github.com/thephpleague/plates/tree/master"
             },
             "time": "2016-12-28T00:14:17+00:00"
+        },
+        {
+            "name": "michaelmcpherson/php-insecure-rest",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mpmcpherson/phpInsecureREST.git",
+                "reference": "adac9b58a1944e75e8cb661c50bd32693c7c63d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mpmcpherson/phpInsecureREST/zipball/adac9b58a1944e75e8cb661c50bd32693c7c63d9",
+                "reference": "adac9b58a1944e75e8cb661c50bd32693c7c63d9",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "description": "an insecure implementation of a rest API, created for educational purposes",
+            "support": {
+                "source": "https://github.com/mpmcpherson/phpInsecureREST/tree/main",
+                "issues": "https://github.com/mpmcpherson/phpInsecureREST/issues"
+            },
+            "time": "2020-12-21T02:45:40+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "michaelmcpherson/php-insecure-rest": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

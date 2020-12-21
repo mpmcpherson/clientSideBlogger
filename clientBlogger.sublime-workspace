@@ -84,6 +84,14 @@
 				"line_ending": "Unix",
 				"name": "a vast and perilous gap exists between knowing how"
 			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 73,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -150,10 +158,14 @@
 	},
 	"expanded_folders":
 	[
-		"/home/michaelmcpherson/src/clientSideBlogger"
+		"/home/michaelmcpherson/src/clientSideBlogger",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase"
 	],
 	"file_history":
 	[
+		"/home/michaelmcpherson/src/clientSideBlogger/composer.json",
+		"/home/michaelmcpherson/src/clientSideBlogger/vendor/league/plates/composer.json",
+		"/home/michaelmcpherson/Downloads/installer",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/dreamhost stuff",
 		"/home/michaelmcpherson/Documents/BusinessDocs/ec2 instance",
 		"/home/michaelmcpherson/src/comnavnotes/TIMELINE FOR PHP SITE MIGRATION",
@@ -278,14 +290,11 @@
 		"/var/www/html/index.html",
 		"/home/michaelmcpherson/src/DnDModuleGenerator/site/settlementGenerator/index.php",
 		"/home/michaelmcpherson/src/DnDModuleGenerator/site/villainGenerator/index.php",
-		"/home/michaelmcpherson/src/DnDModuleGenerator/site/npcGenerator/index.php",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Duchy of the Eight Granite Vines",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Plot Episode 4",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/plot episode 1"
+		"/home/michaelmcpherson/src/DnDModuleGenerator/site/npcGenerator/index.php"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -339,7 +348,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -363,6 +372,34 @@
 						{
 							"auto_name": "a vast and perilous gap exists between knowing how",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".gitignore",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 73,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -411,7 +448,7 @@
 	},
 	"output.exec":
 	{
-		"height": 121.0
+		"height": 205.0
 	},
 	"output.find_results":
 	{

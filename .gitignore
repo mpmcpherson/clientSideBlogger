@@ -2,3 +2,5 @@
 dbConnector.php
 
 /vendor/
+
+secretConfig.php
