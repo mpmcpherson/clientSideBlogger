@@ -1,1 +1,106 @@
-[]
+{
+    "packages": [
+        {
+            "name": "league/plates",
+            "version": "3.3.0",
+            "version_normalized": "3.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/plates.git",
+                "reference": "b1684b6f127714497a0ef927ce42c0b44b45a8af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/plates/zipball/b1684b6f127714497a0ef927ce42c0b44b45a8af",
+                "reference": "b1684b6f127714497a0ef927ce42c0b44b45a8af",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3 | ^7.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "^1.4",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "time": "2016-12-28T00:14:17+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "League\\Plates\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Reinink",
+                    "email": "jonathan@reinink.ca",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Plates, the native PHP template system that's fast, easy to use and easy to extend.",
+            "homepage": "http://platesphp.com",
+            "keywords": [
+                "league",
+                "package",
+                "templates",
+                "templating",
+                "views"
+            ],
+            "support": {
+                "issues": "https://github.com/thephpleague/plates/issues",
+                "source": "https://github.com/thephpleague/plates/tree/master"
+            },
+            "install-path": "../league/plates"
+        },
+        {
+            "name": "michaelmcpherson/php-insecure-rest",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mpmcpherson/phpInsecureREST.git",
+                "reference": "525294b9097cb18b0210e398607810d03490fc20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mpmcpherson/phpInsecureREST/zipball/525294b9097cb18b0210e398607810d03490fc20",
+                "reference": "525294b9097cb18b0210e398607810d03490fc20",
+                "shasum": ""
+            },
+            "time": "2020-12-21T18:30:59+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "rest\\api\\": [
+                        "api/config/",
+                        "api/objects/",
+                        "api/shared"
+                    ]
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "an insecure implementation of a rest API, created for educational purposes",
+            "support": {
+                "source": "https://github.com/mpmcpherson/phpInsecureREST/tree/main",
+                "issues": "https://github.com/mpmcpherson/phpInsecureREST/issues"
+            },
+            "install-path": "../michaelmcpherson/php-insecure-rest"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
