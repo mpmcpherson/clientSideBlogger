@@ -1,20 +1,5 @@
 {
-    "name": "michaelmcpherson/client-side-blogger",
-    "description": "lightweight blogging platform",
-    "type": "project",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Michael McPherson",
-            "email": "michael@mpmcpherson.com"
-        }
-    ],
-    "repositories": [{
-            "type": "vcs",
-            "url": "https://github.com/mpmcpherson/phpinsecurerest"
-        }],
     "require": {
-        "league/plates": "^3.3",
-        "michaelmcpherson/php-insecure-rest": "dev-main"
+
     }
 }
