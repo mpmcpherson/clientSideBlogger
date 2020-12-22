@@ -1,31 +1,39 @@
 <?php
 namespace REST_API;
 require '../../vendor/autoload.php';
-//$loader->addPsr4('rest\\api\\',__DIR__);
 
-//use rest\api\config;
+$gets = json_decode(file_get_contents('php://input'), true);
 
+$user = $gets["username"];
+$pass = $gets["password"];
 
+$subject = $gets["subject"];
+$text = $gets["text"];
 
+$outgoingFile = date("Y-m-d H:i:s");
 
 
 $post = new blogPost();
-$post->construct();
+$post->construct($user,$pass,'test_db','127.0.0.1');
+
+$post->author=$user;
+$post->subject=$subject;
+$post->body=$text;
+
+$post->POST();
 
 $post->abstractPrint();
 
 
-
-
-
-function iterative_dump($ary)
+//with enormous respect to David Barnes of PHP.net
+try
 {
-	foreach($ary as $key => $value) {
-		echo "Key: ".$key." value: ".$value."\n";
-	}		
-}
-// get_class_vars($loader);
 
-//var_dump($loader);
+    echo "success?";
+}
+catch (Exception $e)
+{
+    echo $e->getMessage() . "\n";
+}
 ?>
 

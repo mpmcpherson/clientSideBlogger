@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpmcpherson/phpInsecureREST.git",
-                "reference": "d2aef0d8667bd587ca8932c2e928696089982f76"
+                "reference": "09157baf8b2028922afd5bbeb971f65c01e8040f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpmcpherson/phpInsecureREST/zipball/d2aef0d8667bd587ca8932c2e928696089982f76",
-                "reference": "d2aef0d8667bd587ca8932c2e928696089982f76",
+                "url": "https://api.github.com/repos/mpmcpherson/phpInsecureREST/zipball/09157baf8b2028922afd5bbeb971f65c01e8040f",
+                "reference": "09157baf8b2028922afd5bbeb971f65c01e8040f",
                 "shasum": ""
             },
             "default-branch": true,
@@ -40,7 +40,7 @@
                 "source": "https://github.com/mpmcpherson/phpInsecureREST/tree/main",
                 "issues": "https://github.com/mpmcpherson/phpInsecureREST/issues"
             },
-            "time": "2020-12-22T02:05:29+00:00"
+            "time": "2020-12-22T02:38:03+00:00"
         }
     ],
     "packages-dev": [],
