@@ -24,10 +24,6 @@ try
 
 	$post->POST();
 
-	//echo $post->GET($post->id);
-
-	//$post->abstractPrint();
-
 }
 catch(Exception $e)
 {
