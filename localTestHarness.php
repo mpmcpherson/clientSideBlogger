@@ -1,14 +1,29 @@
 <?php
+namespace REST_API;
+require 'vendor/autoload.php';
+//$loader->addPsr4('rest\\api\\',__DIR__);
 
-$loader = require __DIR__.'/vendor/autoload.php';
-$loader->addPsr4('rest\\api\\',__DIR__);
+//use rest\api\config;
+
+
+
+
+
+$post = new blogPost();
+$post->construct();
+
+$post->abstractPrint();
+
+
+
+
 
 //require_once '/shared/abstractRestConnection.php';
 //require_once 'vendor/michaelmcpherson/php-insecure-rest/api/shared/abstractRestConnection.php';
 //require_once '/objects/blogPost.php';
 //require_once 'vendor/michaelmcpherson/php-insecure-rest/api/objects/blogPost.php';
 
-
+/*
 echo "\nclassMap\n";
 iterative_dump($loader->getClassMap());
 
@@ -21,7 +36,7 @@ echo "\nobject vars\n";
 //echo get_class_vars(gettype($loader));
 
 var_dump($loader);
-
+*/
 
 function iterative_dump($ary)
 {

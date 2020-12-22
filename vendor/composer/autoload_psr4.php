@@ -6,5 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'rest\\api\\' => array($vendorDir . '/michaelmcpherson/php-insecure-rest/api/config', $vendorDir . '/michaelmcpherson/php-insecure-rest/api/objects', $vendorDir . '/michaelmcpherson/php-insecure-rest/api/shared'),
 );

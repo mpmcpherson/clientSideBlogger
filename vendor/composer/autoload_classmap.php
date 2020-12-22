@@ -7,4 +7,10 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'REST_API\\CouchDB' => $vendorDir . '/michaelmcpherson/php-insecure-rest/api/shared/CouchDBConnection.php',
+    'REST_API\\CouchDBRequest' => $vendorDir . '/michaelmcpherson/php-insecure-rest/api/shared/CouchDBRequest.php',
+    'REST_API\\CouchDBResponse' => $vendorDir . '/michaelmcpherson/php-insecure-rest/api/shared/CouchDBResponse.php',
+    'REST_API\\blogPost' => $vendorDir . '/michaelmcpherson/php-insecure-rest/api/objects/blogPost.php',
+    'REST_API\\genericException' => $vendorDir . '/michaelmcpherson/php-insecure-rest/api/shared/genericException.php',
+    'REST_API\\restBaseClass' => $vendorDir . '/michaelmcpherson/php-insecure-rest/api/shared/abstractRestConnection.php',
 );
