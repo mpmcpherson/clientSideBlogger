@@ -8,14 +8,11 @@
             "name": "Michael McPherson",
             "email": "michael@mpmcpherson.com"
         }
-    ],
+    ]    ,
     "repositories": [{
             "type": "vcs",
             "url": "https://github.com/mpmcpherson/phpinsecurerest"
         }],
-    "require": {
-        "league/plates": "^3.3",
-        "michaelmcpherson/php-insecure-rest": "dev-main"
+        "require": { "michaelmcpherson/php-insecure-rest": "dev-main"
     }
-
 }
