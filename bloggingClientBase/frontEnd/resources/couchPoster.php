@@ -24,9 +24,7 @@ try
 
 	$post->POST();
 
-	//echo $post->GET($post->id);
-
-	//$post->abstractPrint();
+	$post->abstractPrint();
 
 }
 catch(Exception $e)

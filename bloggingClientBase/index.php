@@ -28,10 +28,11 @@
 			<button id='save_and_publish' class="pure-button-primary fillHorizontal"style="height: 5%;">save and publish</button>
 
 			<button id='configuration' class="pure-button-primary fillHorizontal" style="height: 5%;">configuration</button>
+			
 			<div id="config-folder" style="display: none;">
 				<input id="username" class="fillHorizontal forms" placeholder="username..."/>
 				<input type="password" id="password" class="fillHorizontal forms"  placeholder="password..."/>
-				<input id="server" class="fillHorizontal forms" placeholder="target server..."/>
+				<input id="subject" class="fillHorizontal forms" placeholder="post subject..."/>
 				<!--<input id="path"class="fillHorizontal forms" placeholder="filepath..."/>-->
 				<div id="save-config" class="pure-button">save config</div>
 			</div>
@@ -111,7 +112,7 @@
 
 	let userName = document.getElementById('username');
 	let password = document.getElementById('password');
-	let server = document.getElementById('server');
+	let subject = document.getElementById('subject');
 
 	//let path = document.getElementById('path');
 
@@ -127,24 +128,21 @@
 		
 
 		let data = {
-  				title: userName.value, 
-  				author: password.value,
-  				imprint: server.value,
+  				username: userName.value, 
+  				password: password.value,
+  				subject: subject.value,
   				text: textBody.innerHTML
 			};
 
 		let sendMe = JSON.stringify(data);
 
-  		postRequest('resources/shared/testHandler.php',
+  		postRequest('resources/onSiteTestHarness.php',
   			function(response){
   				console.log(response);
-  				//theTargetDiv.innerHTML = response;
-
   			},
   			function(response){
   				console.log('An error occurred during your request: ' +  response.status + ' ' + response.statusText);
   			},
-  			
   			sendMe
 		);
 			
