@@ -69,6 +69,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpmcpherson/phpInsecureREST.git",
+<<<<<<< HEAD
                 "reference": "59c4cc808b4ccacb51fb26db5042e31c639f4a00"
             },
             "dist": {
@@ -78,6 +79,17 @@
                 "shasum": ""
             },
             "time": "2020-12-21T05:40:18+00:00",
+=======
+                "reference": "525294b9097cb18b0210e398607810d03490fc20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mpmcpherson/phpInsecureREST/zipball/525294b9097cb18b0210e398607810d03490fc20",
+                "reference": "525294b9097cb18b0210e398607810d03490fc20",
+                "shasum": ""
+            },
+            "time": "2020-12-21T18:30:59+00:00",
+>>>>>>> 33ad9401749b61f2927d576ebec4c689fa67bb5e
             "default-branch": true,
             "type": "library",
             "installation-source": "source",

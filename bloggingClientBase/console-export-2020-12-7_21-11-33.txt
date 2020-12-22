@@ -1,0 +1,134 @@
+Error in parsing value for ‘-webkit-text-size-adjust’.  Declaration dropped. pure-min.css:11:124
+Expected media feature name but found ‘-ms-high-contrast’. pure-min.css:11:2413
+Expected media feature name but found ‘-ms-high-contrast’. pure-min.css:11:2438
+Unknown pseudo-class or pseudo-element ‘-o-prefocus’.  Ruleset ignored due to bad selector. pure-min.css:11:2506
+Unknown pseudo-class or pseudo-element ‘-o-prefocus’.  Ruleset ignored due to bad selector. pure-min.css:11:4780
+Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped. wysiwyg.css:1:2519
+Error in parsing value for ‘position’.  Declaration dropped. skin.css:1438:12
+Unknown pseudo-class or pseudo-element ‘-ms-expand’.  Ruleset ignored due to bad selector. skin.css:1881
+Error in parsing value for ‘touch-action’.  Declaration dropped. skin.css:1927:16
+Unknown property ‘zoom’.  Declaration dropped. skin.css:1978:8
+This page uses the non standard property “zoom”. Consider using calc() in the relevant property values, or using “transform” along with “transform-origin: 0 0”. bloggingClientBase
+XHRPOSThttp://localhost/bloggingClientBase/resources/shared/testHandler.php
+[HTTP/1.1 200 OK 67ms]
+
+<empty string> bloggingClientBase:139:15
+XHRPOSThttp://localhost/bloggingClientBase/resources/shared/testHandler.php
+[HTTP/1.1 200 OK 69ms]
+
+array(4) {
+  ["title"]=>
+  string(17) "Episode Seven...?"
+  ["author"]=>
+  string(17) "Michael McPherson"
+  ["imprint"]=>
+  string(8) "Gollancz"
+  ["text"]=>
+  string(3047) "<div id="thisThing" class="mainBody full">
+<div id="thisisthetarget" class="wysiwyg">
+<p><strong>Patron: The lord and Lady Havulbom&nbsp;</strong></p>
+<p><strong>Villain: Humanoid criminal mastermind;</strong>&nbsp;immediately a vampire controlling the vampire and a necromancer</p>
+<p>Ally: Fey ally</p>
+<p><strong>introduction: An npc the characters care about needs them to go to the adventure location</strong></p>
+<p style="padding-left: 40px;">Specifically, the area is starting to get run down as these dire/etc wolves prey on the Millvale Manor Estate.&nbsp;</p>
+<p style="padding-left: 80px;">Why the hell is a very aware being (the vampire spawn leading them) doing this? What effects will he be acheiving?</p>
+<p style="padding-left: 120px;">Financial issues</p>
+<p style="padding-left: 120px;">People are starting to die</p>
+<p style="padding-left: 120px;">the Havulboms are going to be impoverishing themselves feeding and trying to protect people</p>
+<p style="padding-left: 120px;">if they're poor, they're desperate.&nbsp;</p>
+<p style="padding-left: 120px;">if they're desperate, then they'll compromise or offer access to someone they normally wouldn't.</p>
+<p style="padding-left: 120px;">So what do they have that someone else wants? Specifically, that the vampire spawn or the necromancers want?</p>
+<p style="padding-left: 160px;">&nbsp;</p>
+<p><strong>goal: Locate a dungeon or other site of interest</strong></p>
+<p style="padding-left: 40px;">The dungeon has more or less been found, and they're investigating the contents of the dungeon.</p>
+<p style="padding-left: 40px;">&nbsp;</p>
+<p><strong>complication: Moral quandary</strong></p>
+<p style="padding-left: 40px;">the vampire spawn is serving against his will, and is the servitor of a powerful vampire who is...elsewhere.</p>
+<p>&nbsp;</p>
+<p><strong>side quest: Discover the nature and origin of a strange phenomenon in the area</strong></p>
+<p style="padding-left: 40px;">Why the fuck are all these dire wolves here? Sure, maybe a small pack, but a fucking dozen or so? That's a *lot* of dire (and otherwise) wolves.</p>
+<p style="padding-left: 80px;">Let's say there's a planar gateway here, which is....eh, fuck, "empowering the vampire spawn" --just stat him as two spawn (inc. attacks [cut extra attacks after one spawn's worth of damage taken], saves, etc)-- in addition to allowing some number of extra wolves through every [period of time].&nbsp;</p>
+<p>twist: The adventurers have received false or extraneous information</p>
+<p>climax: The adventurers confront the main villain and a group of minions in a bloody battle ot the finish.</p>
+<p style="padding-left: 40px;">At which point, the vampire spawn, after being 'killed' springs the moral quandary on them: he is the Havulbom's son, captured and turned in Chaunfall, and sent back home to cause trouble for the property he knew so well. His parents don't know he's missing, as he is supposed to be fostering with a noble family there.&nbsp;</p>
+<p>framing event: Travel to Chaunfall</p>
+</div>
+</div>"
+}
+bloggingClientBase:139:15
+XHRPOSThttp://localhost/bloggingClientBase/resources/shared/testHandler.php
+[HTTP/1.1 200 OK 133ms]
+
+array(4) {
+  ["title"]=>
+  string(17) "Episode Seven...?"
+  ["author"]=>
+  string(17) "Michael McPherson"
+  ["imprint"]=>
+  string(8) "Gollancz"
+  ["text"]=>
+  string(3047) "<div id="thisThing" class="mainBody full">
+<div id="thisisthetarget" class="wysiwyg">
+<p><strong>Patron: The lord and Lady Havulbom&nbsp;</strong></p>
+<p><strong>Villain: Humanoid criminal mastermind;</strong>&nbsp;immediately a vampire controlling the vampire and a necromancer</p>
+<p>Ally: Fey ally</p>
+<p><strong>introduction: An npc the characters care about needs them to go to the adventure location</strong></p>
+<p style="padding-left: 40px;">Specifically, the area is starting to get run down as these dire/etc wolves prey on the Millvale Manor Estate.&nbsp;</p>
+<p style="padding-left: 80px;">Why the hell is a very aware being (the vampire spawn leading them) doing this? What effects will he be acheiving?</p>
+<p style="padding-left: 120px;">Financial issues</p>
+<p style="padding-left: 120px;">People are starting to die</p>
+<p style="padding-left: 120px;">the Havulboms are going to be impoverishing themselves feeding and trying to protect people</p>
+<p style="padding-left: 120px;">if they're poor, they're desperate.&nbsp;</p>
+<p style="padding-left: 120px;">if they're desperate, then they'll compromise or offer access to someone they normally wouldn't.</p>
+<p style="padding-left: 120px;">So what do they have that someone else wants? Specifically, that the vampire spawn or the necromancers want?</p>
+<p style="padding-left: 160px;">&nbsp;</p>
+<p><strong>goal: Locate a dungeon or other site of interest</strong></p>
+<p style="padding-left: 40px;">The dungeon has more or less been found, and they're investigating the contents of the dungeon.</p>
+<p style="padding-left: 40px;">&nbsp;</p>
+<p><strong>complication: Moral quandary</strong></p>
+<p style="padding-left: 40px;">the vampire spawn is serving against his will, and is the servitor of a powerful vampire who is...elsewhere.</p>
+<p>&nbsp;</p>
+<p><strong>side quest: Discover the nature and origin of a strange phenomenon in the area</strong></p>
+<p style="padding-left: 40px;">Why the fuck are all these dire wolves here? Sure, maybe a small pack, but a fucking dozen or so? That's a *lot* of dire (and otherwise) wolves.</p>
+<p style="padding-left: 80px;">Let's say there's a planar gateway here, which is....eh, fuck, "empowering the vampire spawn" --just stat him as two spawn (inc. attacks [cut extra attacks after one spawn's worth of damage taken], saves, etc)-- in addition to allowing some number of extra wolves through every [period of time].&nbsp;</p>
+<p>twist: The adventurers have received false or extraneous information</p>
+<p>climax: The adventurers confront the main villain and a group of minions in a bloody battle ot the finish.</p>
+<p style="padding-left: 40px;">At which point, the vampire spawn, after being 'killed' springs the moral quandary on them: he is the Havulbom's son, captured and turned in Chaunfall, and sent back home to cause trouble for the property he knew so well. His parents don't know he's missing, as he is supposed to be fostering with a noble family there.&nbsp;</p>
+<p>framing event: Travel to Chaunfall</p>
+</div>
+</div>"
+}
+bloggingClientBase:139:15
+XHRPOSThttp://localhost/bloggingClientBase/resources/shared/testHandler.php
+[HTTP/1.1 200 OK 87ms]
+
+'{"title":"Episode Seven...?","author":"Michael McPherson","imprint":"Gollancz","text":"<div id="thisThing" class="mainBody full">
+<div id="thisisthetarget" class="wysiwyg">
+<p><strong>Patron: The lord and Lady Havulbom&nbsp;</strong></p>
+<p><strong>Villain: Humanoid criminal mastermind;</strong>&nbsp;immediately a vampire controlling the vampire and a necromancer</p>
+<p>Ally: Fey ally</p>
+<p><strong>introduction: An npc the characters care about needs them to go to the adventure location</strong></p>
+<p style="padding-left: 40px;">Specifically, the area is starting to get run down as these dire/etc wolves prey on the Millvale Manor Estate.&nbsp;</p>
+<p style="padding-left: 80px;">Why the hell is a very aware being (the vampire spawn leading them) doing this? What effects will he be acheiving?</p>
+<p style="padding-left: 120px;">Financial issues</p>
+<p style="padding-left: 120px;">People are starting to die</p>
+<p style="padding-left: 120px;">the Havulboms are going to be impoverishing themselves feeding and trying to protect people</p>
+<p style="padding-left: 120px;">if they're poor, they're desperate.&nbsp;</p>
+<p style="padding-left: 120px;">if they're desperate, then they'll compromise or offer access to someone they normally wouldn't.</p>
+<p style="padding-left: 120px;">So what do they have that someone else wants? Specifically, that the vampire spawn or the necromancers want?</p>
+<p style="padding-left: 160px;">&nbsp;</p>
+<p><strong>goal: Locate a dungeon or other site of interest</strong></p>
+<p style="padding-left: 40px;">The dungeon has more or less been found, and they're investigating the contents of the dungeon.</p>
+<p style="padding-left: 40px;">&nbsp;</p>
+<p><strong>complication: Moral quandary</strong></p>
+<p style="padding-left: 40px;">the vampire spawn is serving against his will, and is the servitor of a powerful vampire who is...elsewhere.</p>
+<p>&nbsp;</p>
+<p><strong>side quest: Discover the nature and origin of a strange phenomenon in the area</strong></p>
+<p style="padding-left: 40px;">Why the fuck are all these dire wolves here? Sure, maybe a small pack, but a fucking dozen or so? That's a *lot* of dire (and otherwise) wolves.</p>
+<p style="padding-left: 80px;">Let's say there's a planar gateway here, which is....eh, fuck, "empowering the vampire spawn" --just stat him as two spawn (inc. attacks [cut extra attacks after one spawn's worth of damage taken], saves, etc)-- in addition to allowing some number of extra wolves through every [period of time].&nbsp;</p>
+<p>twist: The adventurers have received false or extraneous information</p>
+<p>climax: The adventurers confront the main villain and a group of minions in a bloody battle ot the finish.</p>
+<p style="padding-left: 40px;">At which point, the vampire spawn, after being 'killed' springs the moral quandary on them: he is the Havulbom's son, captured and turned in Chaunfall, and sent back home to cause trouble for the property he knew so well. His parents don't know he's missing, as he is supposed to be fostering with a noble family there.&nbsp;</p>
+<p>framing event: Travel to Chaunfall</p>
+</div>
+</div>"}' bloggingClientBase:139:15

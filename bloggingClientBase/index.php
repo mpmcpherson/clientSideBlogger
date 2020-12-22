@@ -127,15 +127,15 @@
 		
 
 		let data = {
-  				username: userName.value, 
-  				password: password.value,
-  				server: server.value,
+  				title: userName.value, 
+  				author: password.value,
+  				imprint: server.value,
   				text: textBody.innerHTML
 			};
 
 		let sendMe = JSON.stringify(data);
 
-  		postRequest('resources/postHandler.php',
+  		postRequest('resources/shared/testHandler.php',
   			function(response){
   				console.log(response);
   				//theTargetDiv.innerHTML = response;
