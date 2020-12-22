@@ -1,6 +1,6 @@
 <?php
 namespace REST_API;
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 //$loader->addPsr4('rest\\api\\',__DIR__);
 
 //use rest\api\config;
