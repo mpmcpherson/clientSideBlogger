@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit0bca5e5058bf356f14f52ae1d26add17
 {
     public static $prefixLengthsPsr4 = array (
+        'r' => 
+        array (
+            'rest\\api\\' => 9,
+        ),
         'L' => 
         array (
             'League\\Plates\\' => 14,
@@ -14,6 +18,12 @@ class ComposerStaticInit0bca5e5058bf356f14f52ae1d26add17
     );
 
     public static $prefixDirsPsr4 = array (
+        'rest\\api\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/michaelmcpherson/php-insecure-rest/api/config',
+            1 => __DIR__ . '/..' . '/michaelmcpherson/php-insecure-rest/api/objects',
+            2 => __DIR__ . '/..' . '/michaelmcpherson/php-insecure-rest/api/shared',
+        ),
         'League\\Plates\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/plates/src',

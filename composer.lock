@@ -71,16 +71,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpmcpherson/phpInsecureREST.git",
-                "reference": "b5fa3dbeb6ba521086eb6e51bf601fcd6e49e869"
+                "reference": "59c4cc808b4ccacb51fb26db5042e31c639f4a00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpmcpherson/phpInsecureREST/zipball/b5fa3dbeb6ba521086eb6e51bf601fcd6e49e869",
-                "reference": "b5fa3dbeb6ba521086eb6e51bf601fcd6e49e869",
+                "url": "https://api.github.com/repos/mpmcpherson/phpInsecureREST/zipball/59c4cc808b4ccacb51fb26db5042e31c639f4a00",
+                "reference": "59c4cc808b4ccacb51fb26db5042e31c639f4a00",
                 "shasum": ""
             },
             "default-branch": true,
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "rest\\api\\": [
+                        "api/config/",
+                        "api/objects/",
+                        "api/shared"
+                    ]
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -89,7 +98,7 @@
                 "source": "https://github.com/mpmcpherson/phpInsecureREST/tree/main",
                 "issues": "https://github.com/mpmcpherson/phpInsecureREST/issues"
             },
-            "time": "2020-12-21T04:16:40+00:00"
+            "time": "2020-12-21T05:40:18+00:00"
         }
     ],
     "packages-dev": [],
