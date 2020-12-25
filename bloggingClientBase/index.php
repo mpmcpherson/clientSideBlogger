@@ -47,6 +47,7 @@
 		</div>
 
 	</div>
+<?php require 'resources/pierrefrancoisdulac.php'; ?>
 </body>	
 </html>
 
