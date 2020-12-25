@@ -4,3 +4,5 @@ dbConnector.php
 /vendor/
 
 secretConfig.php
+
+defaultConnector.php

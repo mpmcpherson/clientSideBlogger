@@ -4,20 +4,28 @@
 		"selected_items":
 		[
 			[
-				"htmldeco",
-				"html_entity_decode"
+				"get_class_",
+				"get_class_vars"
 			],
 			[
-				"BR",
-				"br2nl"
+				"getclass",
+				"get_class_methods"
 			],
 			[
-				"htmlspec",
-				"htmlspecialchars"
+				"requi",
+				"require_once"
+			],
+			[
+				"php",
+				"php-insecure-rest"
 			],
 			[
 				"file",
 				"file_get_contents"
+			],
+			[
+				"htmlspec",
+				"htmlspecialchars_decode"
 			],
 			[
 				"serializ",
@@ -84,93 +92,67 @@
 	"buffers":
 	[
 		{
-			"contents": "a vast and perilous gap exists between knowing how people will act, and getting them to act differently",
+			"file": "/home/michaelmcpherson/src/a vast and perilous gap exists between knowing how",
 			"settings":
 			{
 				"buffer_size": 103,
-				"line_ending": "Unix",
-				"name": "a vast and perilous gap exists between knowing how"
-			}
-		},
-		{
-			"file": "/home/michaelmcpherson/SAVE THIS",
-			"settings":
-			{
-				"buffer_size": 63,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
-				"name": "SAVE THIS"
+				"name": "a vast and perilous gap exists between knowing how"
 			}
 		},
 		{
 			"file": "bloggingClientBase/index.php",
 			"settings":
 			{
-				"buffer_size": 4224,
+				"buffer_size": 4238,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "bloggingClientBase/resources/shared/testHandler.php",
+			"file": "bloggingClientBase/resources/pierrefrancoisdulac.php",
 			"settings":
 			{
-				"buffer_size": 1309,
+				"buffer_size": 538,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bloggingClientBase/frontEnd/index.php",
-			"settings":
-			{
-				"buffer_size": 6089,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "{\"title\":\"Episode Seven...?\",\"author\":\"Michael McPherson\",\"imprint\":\"Gollancz\",\"text\":\"&lt;div id=&quot;thisThing&quot; class=&quot;mainBody full&quot;&gt;&lt;br/&gt;&lt;div id=&quot;thisisthetarget&quot; class=&quot;wysiwyg&quot;&gt;&lt;br/&gt;&lt;p&gt;&lt;strong&gt;Patron: The lord and Lady Havulbom&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;strong&gt;Villain: Humanoid criminal mastermind;&lt;/strong&gt;&amp;nbsp;immediately a vampire controlling the vampire and a necromancer&lt;/p&gt;&lt;br/&gt;&lt;p&gt;Ally: Fey ally&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;strong&gt;introduction: An npc the characters care about needs them to go to the adventure location&lt;/strong&gt;&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 40px;&quot;&gt;Specifically, the area is starting to get run down as these dire/etc wolves prey on the Millvale Manor Estate.&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 80px;&quot;&gt;Why the hell is a very aware being (the vampire spawn leading them) doing this? What effects will he be acheiving?&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 120px;&quot;&gt;Financial issues&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 120px;&quot;&gt;People are starting to die&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 120px;&quot;&gt;the Havulboms are going to be impoverishing themselves feeding and trying to protect people&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 120px;&quot;&gt;if they&#039;re poor, they&#039;re desperate.&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 120px;&quot;&gt;if they&#039;re desperate, then they&#039;ll compromise or offer access to someone they normally wouldn&#039;t.&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 120px;&quot;&gt;So what do they have that someone else wants? Specifically, that the vampire spawn or the necromancers want?&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 160px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;strong&gt;goal: Locate a dungeon or other site of interest&lt;/strong&gt;&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 40px;&quot;&gt;The dungeon has more or less been found, and they&#039;re investigating the contents of the dungeon.&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 40px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;strong&gt;complication: Moral quandary&lt;/strong&gt;&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 40px;&quot;&gt;the vampire spawn is serving against his will, and is the servitor of a powerful vampire who is...elsewhere.&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;strong&gt;side quest: Discover the nature and origin of a strange phenomenon in the area&lt;/strong&gt;&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 40px;&quot;&gt;Why the fuck are all these dire wolves here? Sure, maybe a small pack, but a fucking dozen or so? That&#039;s a *lot* of dire (and otherwise) wolves.&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 80px;&quot;&gt;Let&#039;s say there&#039;s a planar gateway here, which is....eh, fuck, &quot;empowering the vampire spawn&quot; --just stat him as two spawn (inc. attacks [cut extra attacks after one spawn&#039;s worth of damage taken], saves, etc)-- in addition to allowing some number of extra wolves through every [period of time].&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;twist: The adventurers have received false or extraneous information&lt;/p&gt;&lt;br/&gt;&lt;p&gt;climax: The adventurers confront the main villain and a group of minions in a bloody battle ot the finish.&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 40px;&quot;&gt;At which point, the vampire spawn, after being &#039;killed&#039; springs the moral quandary on them: he is the Havulbom&#039;s son, captured and turned in Chaunfall, and sent back home to cause trouble for the property he knew so well. His parents don&#039;t know he&#039;s missing, as he is supposed to be fostering with a noble family there.&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;framing event: Travel to Chaunfall&lt;/p&gt;&lt;br/&gt;&lt;/div&gt;&lt;br/&gt;&lt;/div&gt;\"}",
-			"settings":
-			{
-				"buffer_size": 4145,
 				"line_ending": "Unix",
-				"name": "{\"title\":\"Episode Seven...?\",\"author\":\"Michael McP"
+				"name": "<?php"
 			}
 		},
 		{
-			"contents": "{\"title\":\"Episode Seven...?\",\"author\":\"Michael McPherson\",\"imprint\":\"Gollancz\",\"text\":\"&lt;div id=&quot;thisThing&quot; class=&quot;mainBody full&quot;&gt;\n&lt;div id=&quot;thisisthetarget&quot; class=&quot;wysiwyg&quot;&gt;\n&lt;p&gt;&lt;strong&gt;Patron: The lord and Lady Havulbom&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Villain: Humanoid criminal mastermind;&lt;/strong&gt;&amp;nbsp;immediately a vampire controlling the vampire and a necromancer&lt;/p&gt;\n&lt;p&gt;Ally: Fey ally&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;introduction: An npc the characters care about needs them to go to the adventure location&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;padding-left: 40px;&quot;&gt;Specifically, the area is starting to get run down as these dire/etc wolves prey on the Millvale Manor Estate.&amp;nbsp;&lt;/p&gt;\n&lt;p style=&quot;padding-left: 80px;&quot;&gt;Why the hell is a very aware being (the vampire spawn leading them) doing this? What effects will he be acheiving?&lt;/p&gt;\n&lt;p style=&quot;padding-left: 120px;&quot;&gt;Financial issues&lt;/p&gt;\n&lt;p style=&quot;padding-left: 120px;&quot;&gt;People are starting to die&lt;/p&gt;\n&lt;p style=&quot;padding-left: 120px;&quot;&gt;the Havulboms are going to be impoverishing themselves feeding and trying to protect people&lt;/p&gt;\n&lt;p style=&quot;padding-left: 120px;&quot;&gt;if they&#039;re poor, they&#039;re desperate.&amp;nbsp;&lt;/p&gt;\n&lt;p style=&quot;padding-left: 120px;&quot;&gt;if they&#039;re desperate, then they&#039;ll compromise or offer access to someone they normally wouldn&#039;t.&lt;/p&gt;\n&lt;p style=&quot;padding-left: 120px;&quot;&gt;So what do they have that someone else wants? Specifically, that the vampire spawn or the necromancers want?&lt;/p&gt;\n&lt;p style=&quot;padding-left: 160px;&quot;&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;goal: Locate a dungeon or other site of interest&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;padding-left: 40px;&quot;&gt;The dungeon has more or less been found, and they&#039;re investigating the contents of the dungeon.&lt;/p&gt;\n&lt;p style=&quot;padding-left: 40px;&quot;&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;complication: Moral quandary&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;padding-left: 40px;&quot;&gt;the vampire spawn is serving against his will, and is the servitor of a powerful vampire who is...elsewhere.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;side quest: Discover the nature and origin of a strange phenomenon in the area&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;padding-left: 40px;&quot;&gt;Why the fuck are all these dire wolves here? Sure, maybe a small pack, but a fucking dozen or so? That&#039;s a *lot* of dire (and otherwise) wolves.&lt;/p&gt;\n&lt;p style=&quot;padding-left: 80px;&quot;&gt;Let&#039;s say there&#039;s a planar gateway here, which is....eh, fuck, &quot;empowering the vampire spawn&quot; --just stat him as two spawn (inc. attacks [cut extra attacks after one spawn&#039;s worth of damage taken], saves, etc)-- in addition to allowing some number of extra wolves through every [period of time].&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;twist: The adventurers have received false or extraneous information&lt;/p&gt;\n&lt;p&gt;climax: The adventurers confront the main villain and a group of minions in a bloody battle ot the finish.&lt;/p&gt;\n&lt;p style=&quot;padding-left: 40px;&quot;&gt;At which point, the vampire spawn, after being &#039;killed&#039; springs the moral quandary on them: he is the Havulbom&#039;s son, captured and turned in Chaunfall, and sent back home to cause trouble for the property he knew so well. His parents don&#039;t know he&#039;s missing, as he is supposed to be fostering with a noble family there.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;framing event: Travel to Chaunfall&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\"}",
+			"file": "bloggingClientBase/resources/pushHandler.php",
 			"settings":
 			{
-				"buffer_size": 3855,
-				"line_ending": "Unix",
-				"name": "{\"title\":\"Episode Seven...?\",\"author\":\"Michael McP"
+				"buffer_size": 665,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "'{\"title\":\"Episode Seven...?\",\"author\":\"Michael McPherson\",\"imprint\":\"Gollancz\",\"text\":\"<div id=\"thisThing\" class=\"mainBody full\">\n<div id=\"thisisthetarget\" class=\"wysiwyg\">\n<p><strong>Patron: The lord and Lady Havulbom&nbsp;</strong></p>\n<p><strong>Villain: Humanoid criminal mastermind;</strong>&nbsp;immediately a vampire controlling the vampire and a necromancer</p>\n<p>Ally: Fey ally</p>\n<p><strong>introduction: An npc the characters care about needs them to go to the adventure location</strong></p>\n<p style=\"padding-left: 40px;\">Specifically, the area is starting to get run down as these dire/etc wolves prey on the Millvale Manor Estate.&nbsp;</p>\n<p style=\"padding-left: 80px;\">Why the hell is a very aware being (the vampire spawn leading them) doing this? What effects will he be acheiving?</p>\n<p style=\"padding-left: 120px;\">Financial issues</p>\n<p style=\"padding-left: 120px;\">People are starting to die</p>\n<p style=\"padding-left: 120px;\">the Havulboms are going to be impoverishing themselves feeding and trying to protect people</p>\n<p style=\"padding-left: 120px;\">if they're poor, they're desperate.&nbsp;</p>\n<p style=\"padding-left: 120px;\">if they're desperate, then they'll compromise or offer access to someone they normally wouldn't.</p>\n<p style=\"padding-left: 120px;\">So what do they have that someone else wants? Specifically, that the vampire spawn or the necromancers want?</p>\n<p style=\"padding-left: 160px;\">&nbsp;</p>\n<p><strong>goal: Locate a dungeon or other site of interest</strong></p>\n<p style=\"padding-left: 40px;\">The dungeon has more or less been found, and they're investigating the contents of the dungeon.</p>\n<p style=\"padding-left: 40px;\">&nbsp;</p>\n<p><strong>complication: Moral quandary</strong></p>\n<p style=\"padding-left: 40px;\">the vampire spawn is serving against his will, and is the servitor of a powerful vampire who is...elsewhere.</p>\n<p>&nbsp;</p>\n<p><strong>side quest: Discover the nature and origin of a strange phenomenon in the area</strong></p>\n<p style=\"padding-left: 40px;\">Why the fuck are all these dire wolves here? Sure, maybe a small pack, but a fucking dozen or so? That's a *lot* of dire (and otherwise) wolves.</p>\n<p style=\"padding-left: 80px;\">Let's say there's a planar gateway here, which is....eh, fuck, \"empowering the vampire spawn\" --just stat him as two spawn (inc. attacks [cut extra attacks after one spawn's worth of damage taken], saves, etc)-- in addition to allowing some number of extra wolves through every [period of time].&nbsp;</p>\n<p>twist: The adventurers have received false or extraneous information</p>\n<p>climax: The adventurers confront the main villain and a group of minions in a bloody battle ot the finish.</p>\n<p style=\"padding-left: 40px;\">At which point, the vampire spawn, after being 'killed' springs the moral quandary on them: he is the Havulbom's son, captured and turned in Chaunfall, and sent back home to cause trouble for the property he knew so well. His parents don't know he's missing, as he is supposed to be fostering with a noble family there.&nbsp;</p>\n<p>framing event: Travel to Chaunfall</p>\n</div>\n</div>\"}'",
+			"file": "bloggingClientBase/resources/onSiteTestHarness.php",
 			"settings":
 			{
-				"buffer_size": 3138,
-				"line_ending": "Unix",
-				"name": "'{\"title\":\"Episode Seven...?\",\"author\":\"Michael Mc"
-			}
-		},
-		{
-			"file": "bloggingClientBase/js/helper.js",
-			"settings":
-			{
-				"buffer_size": 2802,
+				"buffer_size": 509,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "bloggingClientBase/resources/config/secretConfig.php",
+			"file": "/home/michaelmcpherson/src/phpInsecureREST/api/shared/abstractRestConnection.php",
 			"settings":
 			{
-				"buffer_size": 54,
+				"buffer_size": 7689,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "I LOVE YOU!!\n\nI love you, too, Graysen! I love you with all my heart! <3\n\n",
+			"settings":
+			{
+				"buffer_size": 74,
+				"line_ending": "Unix",
+				"name": "I LOVE YOU!!"
 			}
 		}
 	],
@@ -240,16 +222,38 @@
 	[
 		"/home/michaelmcpherson/src/clientSideBlogger",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/css",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/js",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/config",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/shared"
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/posts",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources"
 	],
 	"file_history":
 	[
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/shared/CouchDBConnection.php",
+		"/etc/php/7.3/apache2/php.ini",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/pushHandler.php",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/defaultConnector.php",
+		"/home/michaelmcpherson/src/clientSideBlogger/.gitignore",
+		"/home/michaelmcpherson/src/clientSideBlogger/vendor/michaelmcpherson/php-insecure-rest/composer.json",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/postHandler.php",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/resources/couchPoster.php",
+		"/home/michaelmcpherson/src/clientSideBlogger/localTestHarness.php",
+		"/home/michaelmcpherson/src/clientSideBlogger/vendor/michaelmcpherson/php-insecure-rest/api/config/secretConfig.php",
+		"/home/michaelmcpherson/src/clientSideBlogger/composer.json",
+		"/home/michaelmcpherson/src/clientSideBlogger/composer.lock",
+		"/home/michaelmcpherson/src/phpInsecureREST/composer.json",
+		"/home/michaelmcpherson/src/clientSideBlogger/vendor/composer/installed.json",
+		"/home/michaelmcpherson/src/clientSideBlogger/vendor/michaelmcpherson/php-insecure-rest/api/testharness.php",
+		"/home/michaelmcpherson/src/clientSideBlogger/vendor/michaelmcpherson/php-insecure-rest/api/shared/abstractRestConnection.php",
+		"/home/michaelmcpherson/src/phpInsecureREST/composer.lock",
+		"/home/michaelmcpherson/src/phpInsecureREST/api/config/secretConfig.php",
+		"/home/michaelmcpherson/src/clientSideBlogger/vendor/league/plates/composer.json",
+		"/home/michaelmcpherson/Downloads/installer",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/dreamhost stuff",
+		"/home/michaelmcpherson/Documents/BusinessDocs/ec2 instance",
+		"/home/michaelmcpherson/src/comnavnotes/TIMELINE FOR PHP SITE MIGRATION",
+		"/home/michaelmcpherson/Documents/probaby a chinese state actor: attack with care",
+		"/home/michaelmcpherson/Documents/covid-cause-of-death",
+		"/home/michaelmcpherson/adafruit2fabackup.php",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/phprc",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/index.php",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/js/helper.js",
@@ -281,7 +285,6 @@
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/resources/config.php",
 		"/home/michaelmcpherson/Documents/passcodes",
 		"/etc/php/7.3/cli/php.ini",
-		"/home/michaelmcpherson/src/clientSideBlogger/.gitignore",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/js/themes/silver/theme.js",
 		"/home/michaelmcpherson/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
 		"/home/michaelmcpherson/src/newUIframework/uiSite/index.php",
@@ -315,7 +318,6 @@
 		"/home/michaelmcpherson/src/gitRecurse/gitPull.config",
 		"/home/michaelmcpherson/src/gitRecurse/confBuilder.sh",
 		"/home/michaelmcpherson/src/writtenRecords/DnD/Beluin Keyran",
-		"/etc/php/7.3/apache2/php.ini",
 		"/home/michaelmcpherson/src/QueueOversightTool/linuxPass/dbConnector.php",
 		"/home/michaelmcpherson/src/steganograph/the prophet",
 		"/home/michaelmcpherson/src/steganograph/readText.php",
@@ -354,36 +356,15 @@
 		"/home/michaelmcpherson/src/quickscrape/getFirst.php",
 		"/home/michaelmcpherson/src/quickscrape/index.php",
 		"/home/michaelmcpherson/src/DnDModuleGenerator/site/adventureGenerator/basicGenerator.php",
-		"/home/michaelmcpherson/src/quickscrape/dailyVacuum.php",
-		"/home/michaelmcpherson/src/quickscrape/.gitignore",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Necromancer Nine/`encounters to reskin",
-		"/home/michaelmcpherson/src/comnavnotes/ComNavNotes",
-		"/home/michaelmcpherson/src/akounting/akountingInstallstep",
-		"/home/michaelmcpherson/src/akounting/index.php",
-		"/home/michaelmcpherson/src/mathSite/index.php",
-		"/home/michaelmcpherson/src/mathSite/harder/index.php",
-		"/home/michaelmcpherson/src/mathSite/style.css",
-		"/home/michaelmcpherson/src/mathSite/base of screenshotting tool in wayland",
-		"/var/www/html/index.html",
-		"/home/michaelmcpherson/src/DnDModuleGenerator/site/settlementGenerator/index.php",
-		"/home/michaelmcpherson/src/DnDModuleGenerator/site/villainGenerator/index.php",
-		"/home/michaelmcpherson/src/DnDModuleGenerator/site/npcGenerator/index.php",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Duchy of the Eight Granite Vines",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Plot Episode 4",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/plot episode 1",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Plot Episode 3",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/dnd session notes 2",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Plot Episode 2",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Ludolf",
-		"/home/michaelmcpherson/src/DnDModuleGenerator/site/settlementGenerator/lists/05currentCalamityList"
+		"/home/michaelmcpherson/src/quickscrape/dailyVacuum.php"
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
-		"height": 105.0,
+		"height": 0.0,
 		"where_history":
 		[
 		]
@@ -393,7 +374,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"\\n",
+			"com",
 			"'",
 			"\n$",
 			"console",
@@ -418,7 +399,6 @@
 		"regex": true,
 		"replace_history":
 		[
-			"\\n",
 			"\"",
 			"publish",
 			"input",
@@ -439,6 +419,7 @@
 			[
 				{
 					"buffer": 0,
+					"file": "/home/michaelmcpherson/src/a vast and perilous gap exists between knowing how",
 					"semi_transient": false,
 					"settings":
 					{
@@ -449,8 +430,8 @@
 						"selection":
 						[
 							[
-								103,
-								103
+								102,
+								102
 							]
 						],
 						"settings":
@@ -462,144 +443,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/home/michaelmcpherson/SAVE THIS",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 63,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								63,
-								63
-							]
-						],
-						"settings":
-						{
-							"auto_name": "SAVE THIS",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "bloggingClientBase/index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4224,
+						"buffer_size": 4238,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1723,
-								1723
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1026.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "bloggingClientBase/resources/shared/testHandler.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1309,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								789,
-								789
+								104,
+								104
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 171.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "bloggingClientBase/frontEnd/index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6089,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5201,
-								5201
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1354.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4145,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4145,
-								4145
-							]
-						],
-						"settings":
-						{
-							"auto_name": "{\"title\":\"Episode Seven...?\",\"author\":\"Michael McP",
-							"default_dir": "/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/shared",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -609,107 +476,49 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 2,
+					"file": "bloggingClientBase/resources/pierrefrancoisdulac.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3855,
+						"buffer_size": 538,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								156,
-								156
+								538,
+								538
 							]
 						],
 						"settings":
 						{
-							"auto_name": "{\"title\":\"Episode Seven...?\",\"author\":\"Michael McP",
-							"default_dir": "/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/shared",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 57.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3138,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1,
-								1
-							]
-						],
-						"settings":
-						{
-							"auto_name": "'{\"title\":\"Episode Seven...?\",\"author\":\"Michael Mc",
-							"default_dir": "/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/shared",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "bloggingClientBase/js/helper.js",
-					"semi_transient": false,
+					"buffer": 3,
+					"file": "bloggingClientBase/resources/pushHandler.php",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 2802,
+						"buffer_size": 665,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1455,
-								1455
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 855.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "bloggingClientBase/resources/config/secretConfig.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 54,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								665,
+								665
 							]
 						],
 						"settings":
@@ -720,7 +529,93 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "bloggingClientBase/resources/onSiteTestHarness.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								509,
+								509
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/michaelmcpherson/src/phpInsecureREST/api/shared/abstractRestConnection.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7689,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 74,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"auto_name": "I LOVE YOU!!",
+							"default_dir": "/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -763,7 +658,7 @@
 	},
 	"output.exec":
 	{
-		"height": 121.0
+		"height": 205.0
 	},
 	"output.find_results":
 	{
@@ -801,15 +696,11 @@
 	"select_symbol":
 	{
 		"height": 392.0,
-		"last_filter": "json",
+		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"json",
-				"decode_json"
-			]
 		],
-		"width": 821.0
+		"width": 788.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -819,7 +710,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 271.0,
+	"side_bar_width": 368.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

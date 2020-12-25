@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <?php require 'resources/config.php';?>
+<?php require 'resources/pierrefrancoisdulac.php';?>
 <html>
 <head>
 <title><?php echo $pageTitle; ?></title>
