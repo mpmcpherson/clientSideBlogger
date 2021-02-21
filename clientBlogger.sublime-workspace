@@ -4,20 +4,28 @@
 		"selected_items":
 		[
 			[
-				"htmldeco",
-				"html_entity_decode"
+				"get_class_",
+				"get_class_vars"
 			],
 			[
-				"BR",
-				"br2nl"
+				"getclass",
+				"get_class_methods"
 			],
 			[
-				"htmlspec",
-				"htmlspecialchars"
+				"requi",
+				"require_once"
+			],
+			[
+				"php",
+				"php-insecure-rest"
 			],
 			[
 				"file",
 				"file_get_contents"
+			],
+			[
+				"htmlspec",
+				"htmlspecialchars_decode"
 			],
 			[
 				"serializ",
@@ -84,10 +92,14 @@
 	"buffers":
 	[
 		{
-			"contents": "a vast and perilous gap exists between knowing how people will act, and getting them to act differently",
+			"file": "/home/michaelmcpherson/src/a vast and perilous gap exists between knowing how",
 			"settings":
 			{
 				"buffer_size": 103,
+<<<<<<< HEAD
+=======
+				"encoding": "UTF-8",
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 				"line_ending": "Unix",
 				"name": "a vast and perilous gap exists between knowing how"
 			}
@@ -96,6 +108,7 @@
 			"file": "bloggingClientBase/index.php",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 4185,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
@@ -106,45 +119,86 @@
 			"settings":
 			{
 				"buffer_size": 2531,
+=======
+				"buffer_size": 4292,
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
+<<<<<<< HEAD
 			"file": "composer.json",
 			"settings":
 			{
 				"buffer_size": 495,
 				"encoding": "UTF-8",
+=======
+			"file": "bloggingClientBase/resources/pierrefrancoisdulac.php",
+			"settings":
+			{
+				"buffer_size": 583,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "<?php"
+			}
+		},
+		{
+			"file": "bloggingClientBase/resources/pushHandler.php",
+			"settings":
+			{
+				"buffer_size": 665,
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 				"line_ending": "Unix"
 			}
 		},
 		{
+<<<<<<< HEAD
 			"file": "/home/michael/repo token",
 			"settings":
 			{
 				"buffer_size": 40,
+=======
+			"file": "bloggingClientBase/resources/onSiteTestHarness.php",
+			"settings":
+			{
+				"buffer_size": 509,
+				"encoding": "UTF-8",
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 				"line_ending": "Unix"
 			}
 		},
 		{
+<<<<<<< HEAD
 			"contents": "\n\n\tfunction docReady(fn) {\n\t    // see if DOM is already available\n\t    if (document.readyState === \"complete\" || document.readyState === \"interactive\") {\n\t        // call on next available tick\n\t        setTimeout(fn, 1);\n\t    } else {\n\t        document.addEventListener(\"DOMContentLoaded\", fn);\n\t    }\n\t}    \n\n\n// helper function for cross-browser request object\n\tfunction getRequest(url, success, error, params) {\n\t    var req = false;\n\t    try{\n\t        // most browsers\n\t        req = new XMLHttpRequest();\n\t    } catch (e){\n\t        // IE\n\t        try{\n\t            req = new ActiveXObject(\"Msxml2.XMLHTTP\");\n\t        } catch(e) {\n\t            // try an older version\n\t            try{\n\t                req = new ActiveXObject(\"Microsoft.XMLHTTP\");\n\t            } catch(e) {\n\t                return false;\n\t            }\n\t        }\n\t    }\n\t    if (!req) return false;\n\t    if (typeof success != 'function') success = function () {};\n\t    if (typeof error!= 'function') error = function () {};\n\n\n\n\t    if(params != null){\n\n\t        req.open(\"GET\", url+\"?\"+params, true);\n\t        req.setRequestHeader('Cache-Control', 'no-cache');\n\n\t    }else {\n\t        req.open(\"GET\", url, true);\n\t    \treq.setRequestHeader('Cache-Control', 'no-cache');\n\t    }\n\n\n\t    req.onreadystatechange = function(){\n\t        if(req.readyState == 4) {\n\t            return req.status === 200 ?\n\t                success(req.responseText) : error(req.status);\n\t        }\n\t    };\n\n\n\t    req.send(null);\n\t    return req;\n\t}\n\n\tfunction postRequest(url, success, error, data){\n\t\t\n\t\tvar xhr = false;\n\t    try{\n\t        // most browsers\n\t        xhr = new XMLHttpRequest();\n\t    } catch (e){\n\t        // IE\n\t        try{\n\t            xhr = new ActiveXObject(\"Msxml2.XMLHTTP\");\n\t        } catch(e) {\n\t            // try an older version\n\t            try{\n\t                xhr = new ActiveXObject(\"Microsoft.XMLHTTP\");\n\t            } catch(e) {\n\t                return false;\n\t            }\n\t        }\n\t    }\n\n\t\txhr.open(\"POST\", url, true);\n\t\t//xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');\n\t\txhr.setRequestHeader('Content-Type', 'application/json; charset=utf-8');\n\t\t//xhr.setRequestHeader('Data-Type', 'json');\n\n\t    if (!xhr) return false;\n\t    if (typeof success != 'function') success = function () {};\n\t    if (typeof error!= 'function') error = function () {};\n\n\t\txhr.onreadystatechange = function(){\n\t        if(xhr.readyState == 4) {\n\t            return xhr.status === 200 ?\n\t                success(xhr.responseText) : error(xhr.status);\n\t        }\n\t    };\n\t\txhr.send(data);\n\t\treturn xhr;\n\t}\n\n\tfunction toggleHidden(targetDiv) {\n\t  var x = document.getElementById(targetDiv);\n\t  if (x.style.display === \"none\") {\n\t    x.style.display = \"block\";\n\t  } else {\n\t    x.style.display = \"none\";\n\t  }\n\t} ",
 			"file": "bloggingClientBase/js/helper.js",
 			"file_size": 2802,
 			"file_write_time": 132530495149118360,
+=======
+			"file": "/home/michaelmcpherson/src/phpInsecureREST/api/shared/abstractRestConnection.php",
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 			"settings":
 			{
-				"buffer_size": 2802,
+				"buffer_size": 7689,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
+<<<<<<< HEAD
 			"contents": "\n\u001b[1mettercap 0.8.3\u001b[0m copyright 2001-2019 Ettercap Development Team\n\nListening on:\nwlp0s20f3 -> 54:8D:5A:D7:F9:B5\n\t  192.168.1.195/255.255.255.0\n\t  fe80::65f2:5121:bf31:e855/64\n\t  fd27:cc0c:3360:0:dceb:5313:d94c:417b/64\n\t  fd27:cc0c:3360:0:9d12:a54:37ae:23c9/64\n\t  fd27:cc0c:3360::ae2/128\n\nSSL dissection needs a valid 'redir_command_on' script in the etter.conf file\nEttercap might not work correctly. /proc/sys/net/ipv6/conf/all/use_tempaddr is not set to 0.\nEttercap might not work correctly. /proc/sys/net/ipv6/conf/wlp0s20f3/use_tempaddr is not set to 0.\nPrivileges dropped to EUID 65534 EGID 65534...\n\n  34 plugins\n  42 protocol dissectors\n  57 ports monitored\n24609 mac vendor fingerprint\n1766 tcp OS fingerprint\n2182 known services\nLua: no scripts were specified, not starting up!\n\nRandomizing 255 hosts for scanning...\nScanning the whole netmask for 255 hosts...\n\n\nMon Dec 21 16:39:21 2020 [563193]\nUDP  192.168.1.136:5353 --> 224.0.0.251:5353 |  (112)\n............._companion-link._tcp.local......_homekit......._sleep-proxy._udp.!......).....................9..f.Scanning for merged targets (1 hosts)...\n\n8 hosts added to the hosts list...\n\nARP poisoning victims:\n\n GROUP 1 : 192.168.1.136 1A:39:87:96:66:FC\n\n GROUP 2 : ANY (all the hosts in the list)\nStarting Unified sniffing...\n\n\nText only Interface activated...\nHit 'h' for inline help\n\n\n\nMon Dec 21 16:39:23 2020 [983553]\n  192.168.1.136:0 --> 192.168.1.176:0 |  (0)\n\n\nMon Dec 21 16:39:23 2020 [993703]\n  192.168.1.136:0 --> 192.168.1.120:0 |  (0)\n\n\nMon Dec 21 16:39:24 2020 [7966]\nTCP  31.13.71.52:443 --> 192.168.1.136:49391 | A (0)\n\n\nMon Dec 21 16:39:24 2020 [7973]\nTCP  31.13.71.52:443 --> 192.168.1.136:49391 | AP (186)\n.....*Q.4_DyV....e....D.0<....A.....i..Y.%n..J..DtkT...e\\....@.Q1r...\t.7..M.\"..K...Y..u..Y@.....NX.W..Yur,rF.QC.\"z............IPw..d].A...C.*...(BS${.cX\"U.!.:..WFe.<..\\AgE.......}:...^|.\n\nMon Dec 21 16:39:24 2020 [7981]\nTCP  31.13.71.52:443 --> 192.168.1.136:49392 | A (0)\n\n\nMon Dec 21 16:39:24 2020 [7983]\nTCP  31.13.71.52:443 --> 192.168.1.136:49392 | AP (222)\n........|....c.W..\"9.=Jl.......A..ju..t...L ..7..'..~\t...?C..5.f\\Hi.WA.A........4.+.....3.$... ..'.h...U.|,4pR...%.....F}~..h.^.)..............Nf..x..E..P...[T..)....!`.W..[].-t\t~!......o.g.r.....y.md...&q[....s...g....D..\n\nMon Dec 21 16:39:24 2020 [15644]\nUDP  157.240.18.63:443 --> 192.168.1.136:65356 |  (27)\nP...!D.(f#....U.....Y\na..m.\n",
 			"settings":
 			{
 				"buffer_size": 2396,
 				"line_ending": "Unix"
+=======
+			"contents": "I LOVE YOU!!\n\nI love you, too, Graysen! I love you with all my heart! <3\n\n",
+			"settings":
+			{
+				"buffer_size": 74,
+				"line_ending": "Unix",
+				"name": "I LOVE YOU!!"
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 			}
 		}
 	],
@@ -212,6 +266,7 @@
 	},
 	"expanded_folders":
 	[
+<<<<<<< HEAD
 		"/home/michael/src/clientSideBlogger",
 		"/home/michael/src/clientSideBlogger/bloggingClientBase"
 	],
@@ -230,7 +285,43 @@
 		"/home/michael/src/clientSideBlogger/bloggingClientBase/resources/shared/testHandler.php",
 		"/home/michaelmcpherson/SAVE THIS",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/shared/CouchDBConnection.php",
+=======
+		"/home/michaelmcpherson/src/clientSideBlogger",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/css",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/js",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/posts",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources"
+	],
+	"file_history":
+	[
+		"/home/michaelmcpherson/src/homepage/index.php",
+		"/etc/php/7.3/apache2/php.ini",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/pushHandler.php",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/defaultConnector.php",
+		"/home/michaelmcpherson/src/clientSideBlogger/.gitignore",
+		"/home/michaelmcpherson/src/clientSideBlogger/vendor/michaelmcpherson/php-insecure-rest/composer.json",
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/postHandler.php",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/resources/couchPoster.php",
+		"/home/michaelmcpherson/src/clientSideBlogger/localTestHarness.php",
+		"/home/michaelmcpherson/src/clientSideBlogger/vendor/michaelmcpherson/php-insecure-rest/api/config/secretConfig.php",
+		"/home/michaelmcpherson/src/clientSideBlogger/composer.json",
+		"/home/michaelmcpherson/src/clientSideBlogger/composer.lock",
+		"/home/michaelmcpherson/src/phpInsecureREST/composer.json",
+		"/home/michaelmcpherson/src/clientSideBlogger/vendor/composer/installed.json",
+		"/home/michaelmcpherson/src/clientSideBlogger/vendor/michaelmcpherson/php-insecure-rest/api/testharness.php",
+		"/home/michaelmcpherson/src/clientSideBlogger/vendor/michaelmcpherson/php-insecure-rest/api/shared/abstractRestConnection.php",
+		"/home/michaelmcpherson/src/phpInsecureREST/composer.lock",
+		"/home/michaelmcpherson/src/phpInsecureREST/api/config/secretConfig.php",
+		"/home/michaelmcpherson/src/clientSideBlogger/vendor/league/plates/composer.json",
+		"/home/michaelmcpherson/Downloads/installer",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/dreamhost stuff",
+		"/home/michaelmcpherson/Documents/BusinessDocs/ec2 instance",
+		"/home/michaelmcpherson/src/comnavnotes/TIMELINE FOR PHP SITE MIGRATION",
+		"/home/michaelmcpherson/Documents/probaby a chinese state actor: attack with care",
+		"/home/michaelmcpherson/Documents/covid-cause-of-death",
+		"/home/michaelmcpherson/adafruit2fabackup.php",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/phprc",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/index.php",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/js/helper.js",
@@ -262,7 +353,6 @@
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/resources/config.php",
 		"/home/michaelmcpherson/Documents/passcodes",
 		"/etc/php/7.3/cli/php.ini",
-		"/home/michaelmcpherson/src/clientSideBlogger/.gitignore",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/js/themes/silver/theme.js",
 		"/home/michaelmcpherson/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
 		"/home/michaelmcpherson/src/newUIframework/uiSite/index.php",
@@ -296,7 +386,6 @@
 		"/home/michaelmcpherson/src/gitRecurse/gitPull.config",
 		"/home/michaelmcpherson/src/gitRecurse/confBuilder.sh",
 		"/home/michaelmcpherson/src/writtenRecords/DnD/Beluin Keyran",
-		"/etc/php/7.3/apache2/php.ini",
 		"/home/michaelmcpherson/src/QueueOversightTool/linuxPass/dbConnector.php",
 		"/home/michaelmcpherson/src/steganograph/the prophet",
 		"/home/michaelmcpherson/src/steganograph/readText.php",
@@ -334,6 +423,7 @@
 		"/home/michaelmcpherson/src/quickscrape/getCurrent.php",
 		"/home/michaelmcpherson/src/quickscrape/getFirst.php",
 		"/home/michaelmcpherson/src/quickscrape/index.php",
+<<<<<<< HEAD
 		"/home/michaelmcpherson/src/DnDModuleGenerator/site/adventureGenerator/basicGenerator.php",
 		"/home/michaelmcpherson/src/quickscrape/dailyVacuum.php",
 		"/home/michaelmcpherson/src/quickscrape/.gitignore",
@@ -349,10 +439,17 @@
 	"find":
 	{
 		"height": 39.0
+=======
+		"/home/michaelmcpherson/src/DnDModuleGenerator/site/adventureGenerator/basicGenerator.php"
+	],
+	"find":
+	{
+		"height": 40.0
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 	},
 	"find_in_files":
 	{
-		"height": 105.0,
+		"height": 0.0,
 		"where_history":
 		[
 		]
@@ -362,8 +459,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+<<<<<<< HEAD
 			"http",
 			"\\n",
+=======
+			"com",
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 			"'",
 			"\n$",
 			"console",
@@ -388,7 +489,6 @@
 		"regex": true,
 		"replace_history":
 		[
-			"\\n",
 			"\"",
 			"publish",
 			"input",
@@ -404,11 +504,16 @@
 	"groups":
 	[
 		{
+<<<<<<< HEAD
 			"selected": 4,
+=======
+			"selected": 2,
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "/home/michaelmcpherson/src/a vast and perilous gap exists between knowing how",
 					"semi_transient": false,
 					"settings":
 					{
@@ -419,8 +524,8 @@
 						"selection":
 						[
 							[
-								103,
-								103
+								102,
+								102
 							]
 						],
 						"settings":
@@ -439,47 +544,133 @@
 				{
 					"buffer": 1,
 					"file": "bloggingClientBase/index.php",
+<<<<<<< HEAD
 					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 4185,
+=======
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4292,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1723,
-								1723
+								1816,
+								1816
 							]
 						],
 						"settings":
 						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 281.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bloggingClientBase/resources/pierrefrancoisdulac.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 583,
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								539,
+								539
+							]
+						],
+						"settings":
+						{
+<<<<<<< HEAD
 							"function_name_status_row": 49,
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 36.0,
+=======
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 2,
 					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 2531,
+=======
+					"buffer": 3,
+					"file": "bloggingClientBase/resources/pushHandler.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 665,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+								665,
+								665
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "bloggingClientBase/resources/onSiteTestHarness.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 509,
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+<<<<<<< HEAD
 								2531,
 								2531
+=======
+								509,
+								509
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 							]
 						],
 						"settings":
@@ -488,33 +679,56 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 239.0,
+=======
+						"translation.y": 0.0,
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 3,
 					"file": "composer.json",
 					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 495,
+=======
+					"buffer": 5,
+					"file": "/home/michaelmcpherson/src/phpInsecureREST/api/shared/abstractRestConnection.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7689,
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								495,
 								495
+=======
+								217,
+								217
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 							]
 						],
 						"settings":
 						{
+<<<<<<< HEAD
 							"function_name_status_row": 18,
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+=======
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -524,25 +738,43 @@
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 4,
 					"file": "/home/michael/repo token",
 					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 40,
+=======
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 74,
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								40,
 								40
+=======
+								74,
+								74
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 							]
 						],
 						"settings":
 						{
+<<<<<<< HEAD
 							"function_name_status_row": 0,
+=======
+							"auto_name": "I LOVE YOU!!",
+							"default_dir": "/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources",
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -551,6 +783,7 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+<<<<<<< HEAD
 				},
 				{
 					"buffer": 5,
@@ -611,6 +844,8 @@
 					},
 					"stack_index": 4,
 					"type": "text"
+=======
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 				}
 			]
 		}
@@ -652,7 +887,7 @@
 	},
 	"output.exec":
 	{
-		"height": 121.0
+		"height": 205.0
 	},
 	"output.find_results":
 	{
@@ -690,15 +925,11 @@
 	"select_symbol":
 	{
 		"height": 392.0,
-		"last_filter": "json",
+		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"json",
-				"decode_json"
-			]
 		],
-		"width": 821.0
+		"width": 788.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -708,7 +939,11 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
+<<<<<<< HEAD
 	"side_bar_width": 439.0,
+=======
+	"side_bar_width": 368.0,
+>>>>>>> 022713f6f4aff7d6f7d38464af9426d3829482d6
 	"status_bar_visible": true,
 	"template_settings":
 	{
