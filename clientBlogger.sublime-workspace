@@ -93,71 +93,45 @@
 			}
 		},
 		{
-			"file": "/home/michaelmcpherson/SAVE THIS",
-			"settings":
-			{
-				"buffer_size": 63,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "SAVE THIS"
-			}
-		},
-		{
 			"file": "bloggingClientBase/index.php",
 			"settings":
 			{
-				"buffer_size": 4224,
+				"buffer_size": 4185,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "bloggingClientBase/resources/shared/testHandler.php",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 1309,
+				"buffer_size": 2531,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "bloggingClientBase/frontEnd/index.php",
+			"file": "composer.json",
 			"settings":
 			{
-				"buffer_size": 6089,
+				"buffer_size": 495,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "{\"title\":\"Episode Seven...?\",\"author\":\"Michael McPherson\",\"imprint\":\"Gollancz\",\"text\":\"&lt;div id=&quot;thisThing&quot; class=&quot;mainBody full&quot;&gt;&lt;br/&gt;&lt;div id=&quot;thisisthetarget&quot; class=&quot;wysiwyg&quot;&gt;&lt;br/&gt;&lt;p&gt;&lt;strong&gt;Patron: The lord and Lady Havulbom&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;strong&gt;Villain: Humanoid criminal mastermind;&lt;/strong&gt;&amp;nbsp;immediately a vampire controlling the vampire and a necromancer&lt;/p&gt;&lt;br/&gt;&lt;p&gt;Ally: Fey ally&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;strong&gt;introduction: An npc the characters care about needs them to go to the adventure location&lt;/strong&gt;&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 40px;&quot;&gt;Specifically, the area is starting to get run down as these dire/etc wolves prey on the Millvale Manor Estate.&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 80px;&quot;&gt;Why the hell is a very aware being (the vampire spawn leading them) doing this? What effects will he be acheiving?&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 120px;&quot;&gt;Financial issues&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 120px;&quot;&gt;People are starting to die&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 120px;&quot;&gt;the Havulboms are going to be impoverishing themselves feeding and trying to protect people&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 120px;&quot;&gt;if they&#039;re poor, they&#039;re desperate.&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 120px;&quot;&gt;if they&#039;re desperate, then they&#039;ll compromise or offer access to someone they normally wouldn&#039;t.&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 120px;&quot;&gt;So what do they have that someone else wants? Specifically, that the vampire spawn or the necromancers want?&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 160px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;strong&gt;goal: Locate a dungeon or other site of interest&lt;/strong&gt;&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 40px;&quot;&gt;The dungeon has more or less been found, and they&#039;re investigating the contents of the dungeon.&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 40px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;strong&gt;complication: Moral quandary&lt;/strong&gt;&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 40px;&quot;&gt;the vampire spawn is serving against his will, and is the servitor of a powerful vampire who is...elsewhere.&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;strong&gt;side quest: Discover the nature and origin of a strange phenomenon in the area&lt;/strong&gt;&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 40px;&quot;&gt;Why the fuck are all these dire wolves here? Sure, maybe a small pack, but a fucking dozen or so? That&#039;s a *lot* of dire (and otherwise) wolves.&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 80px;&quot;&gt;Let&#039;s say there&#039;s a planar gateway here, which is....eh, fuck, &quot;empowering the vampire spawn&quot; --just stat him as two spawn (inc. attacks [cut extra attacks after one spawn&#039;s worth of damage taken], saves, etc)-- in addition to allowing some number of extra wolves through every [period of time].&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;twist: The adventurers have received false or extraneous information&lt;/p&gt;&lt;br/&gt;&lt;p&gt;climax: The adventurers confront the main villain and a group of minions in a bloody battle ot the finish.&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;padding-left: 40px;&quot;&gt;At which point, the vampire spawn, after being &#039;killed&#039; springs the moral quandary on them: he is the Havulbom&#039;s son, captured and turned in Chaunfall, and sent back home to cause trouble for the property he knew so well. His parents don&#039;t know he&#039;s missing, as he is supposed to be fostering with a noble family there.&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;framing event: Travel to Chaunfall&lt;/p&gt;&lt;br/&gt;&lt;/div&gt;&lt;br/&gt;&lt;/div&gt;\"}",
+			"file": "/home/michael/repo token",
 			"settings":
 			{
-				"buffer_size": 4145,
-				"line_ending": "Unix",
-				"name": "{\"title\":\"Episode Seven...?\",\"author\":\"Michael McP"
+				"buffer_size": 40,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "{\"title\":\"Episode Seven...?\",\"author\":\"Michael McPherson\",\"imprint\":\"Gollancz\",\"text\":\"&lt;div id=&quot;thisThing&quot; class=&quot;mainBody full&quot;&gt;\n&lt;div id=&quot;thisisthetarget&quot; class=&quot;wysiwyg&quot;&gt;\n&lt;p&gt;&lt;strong&gt;Patron: The lord and Lady Havulbom&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Villain: Humanoid criminal mastermind;&lt;/strong&gt;&amp;nbsp;immediately a vampire controlling the vampire and a necromancer&lt;/p&gt;\n&lt;p&gt;Ally: Fey ally&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;introduction: An npc the characters care about needs them to go to the adventure location&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;padding-left: 40px;&quot;&gt;Specifically, the area is starting to get run down as these dire/etc wolves prey on the Millvale Manor Estate.&amp;nbsp;&lt;/p&gt;\n&lt;p style=&quot;padding-left: 80px;&quot;&gt;Why the hell is a very aware being (the vampire spawn leading them) doing this? What effects will he be acheiving?&lt;/p&gt;\n&lt;p style=&quot;padding-left: 120px;&quot;&gt;Financial issues&lt;/p&gt;\n&lt;p style=&quot;padding-left: 120px;&quot;&gt;People are starting to die&lt;/p&gt;\n&lt;p style=&quot;padding-left: 120px;&quot;&gt;the Havulboms are going to be impoverishing themselves feeding and trying to protect people&lt;/p&gt;\n&lt;p style=&quot;padding-left: 120px;&quot;&gt;if they&#039;re poor, they&#039;re desperate.&amp;nbsp;&lt;/p&gt;\n&lt;p style=&quot;padding-left: 120px;&quot;&gt;if they&#039;re desperate, then they&#039;ll compromise or offer access to someone they normally wouldn&#039;t.&lt;/p&gt;\n&lt;p style=&quot;padding-left: 120px;&quot;&gt;So what do they have that someone else wants? Specifically, that the vampire spawn or the necromancers want?&lt;/p&gt;\n&lt;p style=&quot;padding-left: 160px;&quot;&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;goal: Locate a dungeon or other site of interest&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;padding-left: 40px;&quot;&gt;The dungeon has more or less been found, and they&#039;re investigating the contents of the dungeon.&lt;/p&gt;\n&lt;p style=&quot;padding-left: 40px;&quot;&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;complication: Moral quandary&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;padding-left: 40px;&quot;&gt;the vampire spawn is serving against his will, and is the servitor of a powerful vampire who is...elsewhere.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;side quest: Discover the nature and origin of a strange phenomenon in the area&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;padding-left: 40px;&quot;&gt;Why the fuck are all these dire wolves here? Sure, maybe a small pack, but a fucking dozen or so? That&#039;s a *lot* of dire (and otherwise) wolves.&lt;/p&gt;\n&lt;p style=&quot;padding-left: 80px;&quot;&gt;Let&#039;s say there&#039;s a planar gateway here, which is....eh, fuck, &quot;empowering the vampire spawn&quot; --just stat him as two spawn (inc. attacks [cut extra attacks after one spawn&#039;s worth of damage taken], saves, etc)-- in addition to allowing some number of extra wolves through every [period of time].&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;twist: The adventurers have received false or extraneous information&lt;/p&gt;\n&lt;p&gt;climax: The adventurers confront the main villain and a group of minions in a bloody battle ot the finish.&lt;/p&gt;\n&lt;p style=&quot;padding-left: 40px;&quot;&gt;At which point, the vampire spawn, after being &#039;killed&#039; springs the moral quandary on them: he is the Havulbom&#039;s son, captured and turned in Chaunfall, and sent back home to cause trouble for the property he knew so well. His parents don&#039;t know he&#039;s missing, as he is supposed to be fostering with a noble family there.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;framing event: Travel to Chaunfall&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\"}",
-			"settings":
-			{
-				"buffer_size": 3855,
-				"line_ending": "Unix",
-				"name": "{\"title\":\"Episode Seven...?\",\"author\":\"Michael McP"
-			}
-		},
-		{
-			"contents": "'{\"title\":\"Episode Seven...?\",\"author\":\"Michael McPherson\",\"imprint\":\"Gollancz\",\"text\":\"<div id=\"thisThing\" class=\"mainBody full\">\n<div id=\"thisisthetarget\" class=\"wysiwyg\">\n<p><strong>Patron: The lord and Lady Havulbom&nbsp;</strong></p>\n<p><strong>Villain: Humanoid criminal mastermind;</strong>&nbsp;immediately a vampire controlling the vampire and a necromancer</p>\n<p>Ally: Fey ally</p>\n<p><strong>introduction: An npc the characters care about needs them to go to the adventure location</strong></p>\n<p style=\"padding-left: 40px;\">Specifically, the area is starting to get run down as these dire/etc wolves prey on the Millvale Manor Estate.&nbsp;</p>\n<p style=\"padding-left: 80px;\">Why the hell is a very aware being (the vampire spawn leading them) doing this? What effects will he be acheiving?</p>\n<p style=\"padding-left: 120px;\">Financial issues</p>\n<p style=\"padding-left: 120px;\">People are starting to die</p>\n<p style=\"padding-left: 120px;\">the Havulboms are going to be impoverishing themselves feeding and trying to protect people</p>\n<p style=\"padding-left: 120px;\">if they're poor, they're desperate.&nbsp;</p>\n<p style=\"padding-left: 120px;\">if they're desperate, then they'll compromise or offer access to someone they normally wouldn't.</p>\n<p style=\"padding-left: 120px;\">So what do they have that someone else wants? Specifically, that the vampire spawn or the necromancers want?</p>\n<p style=\"padding-left: 160px;\">&nbsp;</p>\n<p><strong>goal: Locate a dungeon or other site of interest</strong></p>\n<p style=\"padding-left: 40px;\">The dungeon has more or less been found, and they're investigating the contents of the dungeon.</p>\n<p style=\"padding-left: 40px;\">&nbsp;</p>\n<p><strong>complication: Moral quandary</strong></p>\n<p style=\"padding-left: 40px;\">the vampire spawn is serving against his will, and is the servitor of a powerful vampire who is...elsewhere.</p>\n<p>&nbsp;</p>\n<p><strong>side quest: Discover the nature and origin of a strange phenomenon in the area</strong></p>\n<p style=\"padding-left: 40px;\">Why the fuck are all these dire wolves here? Sure, maybe a small pack, but a fucking dozen or so? That's a *lot* of dire (and otherwise) wolves.</p>\n<p style=\"padding-left: 80px;\">Let's say there's a planar gateway here, which is....eh, fuck, \"empowering the vampire spawn\" --just stat him as two spawn (inc. attacks [cut extra attacks after one spawn's worth of damage taken], saves, etc)-- in addition to allowing some number of extra wolves through every [period of time].&nbsp;</p>\n<p>twist: The adventurers have received false or extraneous information</p>\n<p>climax: The adventurers confront the main villain and a group of minions in a bloody battle ot the finish.</p>\n<p style=\"padding-left: 40px;\">At which point, the vampire spawn, after being 'killed' springs the moral quandary on them: he is the Havulbom's son, captured and turned in Chaunfall, and sent back home to cause trouble for the property he knew so well. His parents don't know he's missing, as he is supposed to be fostering with a noble family there.&nbsp;</p>\n<p>framing event: Travel to Chaunfall</p>\n</div>\n</div>\"}'",
-			"settings":
-			{
-				"buffer_size": 3138,
-				"line_ending": "Unix",
-				"name": "'{\"title\":\"Episode Seven...?\",\"author\":\"Michael Mc"
-			}
-		},
-		{
+			"contents": "\n\n\tfunction docReady(fn) {\n\t    // see if DOM is already available\n\t    if (document.readyState === \"complete\" || document.readyState === \"interactive\") {\n\t        // call on next available tick\n\t        setTimeout(fn, 1);\n\t    } else {\n\t        document.addEventListener(\"DOMContentLoaded\", fn);\n\t    }\n\t}    \n\n\n// helper function for cross-browser request object\n\tfunction getRequest(url, success, error, params) {\n\t    var req = false;\n\t    try{\n\t        // most browsers\n\t        req = new XMLHttpRequest();\n\t    } catch (e){\n\t        // IE\n\t        try{\n\t            req = new ActiveXObject(\"Msxml2.XMLHTTP\");\n\t        } catch(e) {\n\t            // try an older version\n\t            try{\n\t                req = new ActiveXObject(\"Microsoft.XMLHTTP\");\n\t            } catch(e) {\n\t                return false;\n\t            }\n\t        }\n\t    }\n\t    if (!req) return false;\n\t    if (typeof success != 'function') success = function () {};\n\t    if (typeof error!= 'function') error = function () {};\n\n\n\n\t    if(params != null){\n\n\t        req.open(\"GET\", url+\"?\"+params, true);\n\t        req.setRequestHeader('Cache-Control', 'no-cache');\n\n\t    }else {\n\t        req.open(\"GET\", url, true);\n\t    \treq.setRequestHeader('Cache-Control', 'no-cache');\n\t    }\n\n\n\t    req.onreadystatechange = function(){\n\t        if(req.readyState == 4) {\n\t            return req.status === 200 ?\n\t                success(req.responseText) : error(req.status);\n\t        }\n\t    };\n\n\n\t    req.send(null);\n\t    return req;\n\t}\n\n\tfunction postRequest(url, success, error, data){\n\t\t\n\t\tvar xhr = false;\n\t    try{\n\t        // most browsers\n\t        xhr = new XMLHttpRequest();\n\t    } catch (e){\n\t        // IE\n\t        try{\n\t            xhr = new ActiveXObject(\"Msxml2.XMLHTTP\");\n\t        } catch(e) {\n\t            // try an older version\n\t            try{\n\t                xhr = new ActiveXObject(\"Microsoft.XMLHTTP\");\n\t            } catch(e) {\n\t                return false;\n\t            }\n\t        }\n\t    }\n\n\t\txhr.open(\"POST\", url, true);\n\t\t//xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');\n\t\txhr.setRequestHeader('Content-Type', 'application/json; charset=utf-8');\n\t\t//xhr.setRequestHeader('Data-Type', 'json');\n\n\t    if (!xhr) return false;\n\t    if (typeof success != 'function') success = function () {};\n\t    if (typeof error!= 'function') error = function () {};\n\n\t\txhr.onreadystatechange = function(){\n\t        if(xhr.readyState == 4) {\n\t            return xhr.status === 200 ?\n\t                success(xhr.responseText) : error(xhr.status);\n\t        }\n\t    };\n\t\txhr.send(data);\n\t\treturn xhr;\n\t}\n\n\tfunction toggleHidden(targetDiv) {\n\t  var x = document.getElementById(targetDiv);\n\t  if (x.style.display === \"none\") {\n\t    x.style.display = \"block\";\n\t  } else {\n\t    x.style.display = \"none\";\n\t  }\n\t} ",
 			"file": "bloggingClientBase/js/helper.js",
+			"file_size": 2802,
+			"file_write_time": 132530495149118360,
 			"settings":
 			{
 				"buffer_size": 2802,
@@ -166,10 +140,10 @@
 			}
 		},
 		{
-			"file": "bloggingClientBase/resources/config/secretConfig.php",
+			"contents": "\n\u001b[1mettercap 0.8.3\u001b[0m copyright 2001-2019 Ettercap Development Team\n\nListening on:\nwlp0s20f3 -> 54:8D:5A:D7:F9:B5\n\t  192.168.1.195/255.255.255.0\n\t  fe80::65f2:5121:bf31:e855/64\n\t  fd27:cc0c:3360:0:dceb:5313:d94c:417b/64\n\t  fd27:cc0c:3360:0:9d12:a54:37ae:23c9/64\n\t  fd27:cc0c:3360::ae2/128\n\nSSL dissection needs a valid 'redir_command_on' script in the etter.conf file\nEttercap might not work correctly. /proc/sys/net/ipv6/conf/all/use_tempaddr is not set to 0.\nEttercap might not work correctly. /proc/sys/net/ipv6/conf/wlp0s20f3/use_tempaddr is not set to 0.\nPrivileges dropped to EUID 65534 EGID 65534...\n\n  34 plugins\n  42 protocol dissectors\n  57 ports monitored\n24609 mac vendor fingerprint\n1766 tcp OS fingerprint\n2182 known services\nLua: no scripts were specified, not starting up!\n\nRandomizing 255 hosts for scanning...\nScanning the whole netmask for 255 hosts...\n\n\nMon Dec 21 16:39:21 2020 [563193]\nUDP  192.168.1.136:5353 --> 224.0.0.251:5353 |  (112)\n............._companion-link._tcp.local......_homekit......._sleep-proxy._udp.!......).....................9..f.Scanning for merged targets (1 hosts)...\n\n8 hosts added to the hosts list...\n\nARP poisoning victims:\n\n GROUP 1 : 192.168.1.136 1A:39:87:96:66:FC\n\n GROUP 2 : ANY (all the hosts in the list)\nStarting Unified sniffing...\n\n\nText only Interface activated...\nHit 'h' for inline help\n\n\n\nMon Dec 21 16:39:23 2020 [983553]\n  192.168.1.136:0 --> 192.168.1.176:0 |  (0)\n\n\nMon Dec 21 16:39:23 2020 [993703]\n  192.168.1.136:0 --> 192.168.1.120:0 |  (0)\n\n\nMon Dec 21 16:39:24 2020 [7966]\nTCP  31.13.71.52:443 --> 192.168.1.136:49391 | A (0)\n\n\nMon Dec 21 16:39:24 2020 [7973]\nTCP  31.13.71.52:443 --> 192.168.1.136:49391 | AP (186)\n.....*Q.4_DyV....e....D.0<....A.....i..Y.%n..J..DtkT...e\\....@.Q1r...\t.7..M.\"..K...Y..u..Y@.....NX.W..Yur,rF.QC.\"z............IPw..d].A...C.*...(BS${.cX\"U.!.:..WFe.<..\\AgE.......}:...^|.\n\nMon Dec 21 16:39:24 2020 [7981]\nTCP  31.13.71.52:443 --> 192.168.1.136:49392 | A (0)\n\n\nMon Dec 21 16:39:24 2020 [7983]\nTCP  31.13.71.52:443 --> 192.168.1.136:49392 | AP (222)\n........|....c.W..\"9.=Jl.......A..ju..t...L ..7..'..~\t...?C..5.f\\Hi.WA.A........4.+.....3.$... ..'.h...U.|,4pR...%.....F}~..h.^.)..............Nf..x..E..P...[T..)....!`.W..[].-t\t~!......o.g.r.....y.md...&q[....s...g....D..\n\nMon Dec 21 16:39:24 2020 [15644]\nUDP  157.240.18.63:443 --> 192.168.1.136:65356 |  (27)\nP...!D.(f#....U.....Y\na..m.\n",
 			"settings":
 			{
-				"buffer_size": 54,
+				"buffer_size": 2396,
 				"line_ending": "Unix"
 			}
 		}
@@ -186,15 +160,15 @@
 		"selected_items":
 		[
 			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
 				"package control: list",
 				"Package Control: List Packages"
 			],
 			[
 				"packa",
-				"Package Control: Install Package"
-			],
-			[
-				"package",
 				"Package Control: Install Package"
 			],
 			[
@@ -238,16 +212,23 @@
 	},
 	"expanded_folders":
 	[
-		"/home/michaelmcpherson/src/clientSideBlogger",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/js",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/config",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/shared"
+		"/home/michael/src/clientSideBlogger",
+		"/home/michael/src/clientSideBlogger/bloggingClientBase"
 	],
 	"file_history":
 	[
+		"/home/michael/repo token",
+		"/home/michael/src/clientSideBlogger/bloggingClientBase/dreamhost stuff",
+		"/home/michael/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
+		"/home/michael/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/michael/Desktop/outlogs.log.pcap",
+		"/home/michael/src/clientSideBlogger/vendor/michaelmcpherson/php-insecure-rest/api/config/secretConfig.php",
+		"/usr/share/ettercap/etter.filter.examples",
+		"/usr/share/ettercap/http.filter",
+		"/home/michael/src/clientSideBlogger/bloggingClientBase/resources/shared/secretConfig.php",
+		"/home/michael/src/clientSideBlogger/bloggingClientBase/frontEnd/index.php",
+		"/home/michael/src/clientSideBlogger/bloggingClientBase/resources/shared/testHandler.php",
+		"/home/michaelmcpherson/SAVE THIS",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/shared/CouchDBConnection.php",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/postHandler.php",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/phprc",
@@ -363,23 +344,11 @@
 		"/home/michaelmcpherson/src/mathSite/index.php",
 		"/home/michaelmcpherson/src/mathSite/harder/index.php",
 		"/home/michaelmcpherson/src/mathSite/style.css",
-		"/home/michaelmcpherson/src/mathSite/base of screenshotting tool in wayland",
-		"/var/www/html/index.html",
-		"/home/michaelmcpherson/src/DnDModuleGenerator/site/settlementGenerator/index.php",
-		"/home/michaelmcpherson/src/DnDModuleGenerator/site/villainGenerator/index.php",
-		"/home/michaelmcpherson/src/DnDModuleGenerator/site/npcGenerator/index.php",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Duchy of the Eight Granite Vines",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Plot Episode 4",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/plot episode 1",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Plot Episode 3",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/dnd session notes 2",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Plot Episode 2",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Ludolf",
-		"/home/michaelmcpherson/src/DnDModuleGenerator/site/settlementGenerator/lists/05currentCalamityList"
+		"/home/michaelmcpherson/src/mathSite/base of screenshotting tool in wayland"
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -393,6 +362,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"http",
 			"\\n",
 			"'",
 			"\n$",
@@ -434,7 +404,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -456,51 +426,23 @@
 						"settings":
 						{
 							"auto_name": "a vast and perilous gap exists between knowing how",
+							"function_name_status_row": 0,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/home/michaelmcpherson/SAVE THIS",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 63,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								63,
-								63
-							]
-						],
-						"settings":
-						{
-							"auto_name": "SAVE THIS",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "bloggingClientBase/index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4224,
+						"buffer_size": 4185,
 						"regions":
 						{
 						},
@@ -513,93 +455,66 @@
 						],
 						"settings":
 						{
+							"function_name_status_row": 49,
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1026.0,
+						"translation.y": 36.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "bloggingClientBase/resources/shared/testHandler.php",
+					"buffer": 2,
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1309,
+						"buffer_size": 2531,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								789,
-								789
+								2531,
+								2531
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"function_name_status_row": 30,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 171.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "bloggingClientBase/frontEnd/index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6089,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5201,
-								5201
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1354.0,
+						"translation.y": 239.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 3,
+					"file": "composer.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4145,
+						"buffer_size": 495,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4145,
-								4145
+								495,
+								495
 							]
 						],
 						"settings":
 						{
-							"auto_name": "{\"title\":\"Episode Seven...?\",\"author\":\"Michael McP",
-							"default_dir": "/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/shared",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"function_name_status_row": 18,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -609,65 +524,36 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 4,
+					"file": "/home/michael/repo token",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3855,
+						"buffer_size": 40,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								156,
-								156
+								40,
+								40
 							]
 						],
 						"settings":
 						{
-							"auto_name": "{\"title\":\"Episode Seven...?\",\"author\":\"Michael McP",
-							"default_dir": "/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/shared",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 57.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3138,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1,
-								1
-							]
-						],
-						"settings":
-						{
-							"auto_name": "'{\"title\":\"Episode Seven...?\",\"author\":\"Michael Mc",
-							"default_dir": "/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/shared",
+							"function_name_status_row": 0,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 5,
 					"file": "bloggingClientBase/js/helper.js",
 					"semi_transient": false,
 					"settings":
@@ -679,48 +565,51 @@
 						"selection":
 						[
 							[
-								1455,
-								1455
+								1026,
+								1026
 							]
 						],
 						"settings":
 						{
+							"function_name_status_row": 38,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 855.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "bloggingClientBase/resources/config/secretConfig.php",
+					"buffer": 6,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 54,
+						"buffer_size": 2396,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								949,
+								949
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"auto_name": "",
+							"default_dir": "/home/michael/Desktop",
+							"function_name_status_row": 29,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 216.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -819,7 +708,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 271.0,
+	"side_bar_width": 439.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
